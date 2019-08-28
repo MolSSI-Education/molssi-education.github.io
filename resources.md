@@ -1,0 +1,76 @@
+---
+title: Resources
+layout: default
+---
+
+MolSSI offers 1-2 day workshops as well as online tutorial materials. All tutorials are hosted on GitHub in the MolSSI Education GitHub organization. Outside contribution is welcomed and encouraged!
+
+# Workshops
+
+## Python Data and Scripting
+**Description**: The MolSSI Python Data and Scripting workshop is designed for students who are currently involved in, or planning to start computational chemistry research. This workshop is designed to help students develop practical programming skills that will benefit their undergraduate research, and will take students through introductory programming and scripting with Python to version control and sharing their code with others. NO prior programming experience is required.
+
+<details>
+    <summary>Workshop Topics</summary>
+        <li> Basic Python syntax an control structures  
+        <li> Reading and writing files  
+        <li> File manipulation and parsing
+        <li> Analyzing and graphing data
+        <li> Writing functions
+        <li> Creating command line programs from Python scripts
+        <li> Basic testing using PyTest
+        <li> Version control with git
+        <li> Sharing code on GitHub
+
+</details>
+<br>
+
+[{% octicon book %} View Workshop Materials](https://molssi-education.github.io/python_scripting_cms/) | 
+[{% octicon mark-github} View GitHub Repository %} View GitHub Repository](https://github.com/MolSSI-Education/python_scripting_cms)
+
+
+## Best Practices Workshops
+**Description**: Our best practices workshops introduce and promote [MolSSI best practices](https://molssi.org/education/best-practices/) to workshop attendees. This workshop is designed for graduate students, post docs, or advanced undergraduate students. In this course, students create a Python package using best practices and the [MolSSI CookieCutter](https://github.com/MolSSI/cookiecutter-cms), and host this project on GitHub.
+
+<details>
+    <summary>Workshop Topics:</summary>
+    <li> Conda and Python environments
+    <li> Structuring a Python project using the MolSSI CookieCutter.
+    <li> Version control using git
+    <li> Python Coding Style
+    <li> Online code repositories such as GitHub
+    <li> GitHub collaboration
+    <li> Unit testing and the PyTest testing framework
+    <li> Code coverage
+    <li> Continuous integration tools
+    <li> Documentation for Python packages using Sphinx.
+</details>
+<br>
+
+[{% octicon book %} View Workshop Materials](https://molssi-education.github.io/CMS-Python-DevOps/) | 
+[{% octicon mark-github} View GitHub Repository %} View GitHub Repository](https://github.com/MolSSI-Education/CMS-Python-DevOps/)
+
+## Object Oriented Programming and Design Patterns
+**Description**:The Object Oriented Programming (OOP) and Design Patterns tutorials provide a brief introduction to good software design principles. These tutorials are designed for graduate students, post docs, or advanced undergraduate students. Students will develop python modules using OOP principles and software design patterns.
+
+<details>
+    <summary>Workshop Topics</summary>
+    <li> Encapsulation
+    <li> Data Abstraction
+    <li> Inheritance
+    <li> Polymorphism
+    <li> Factory Design Pattern
+    <li> Adapter Design Pattern
+    <li> Facade Design Pattern
+    <li> Observer Design Pattern
+</details>
+<br>
+
+[{% octicon book %} View Workshop Materials](https://molssi-education.github.io/oop_and_design_patterns/index.html) | 
+[{% octicon mark-github} View GitHub Repository %} View GitHub Repository](https://github.com/MolSSI-Education/oop_and_design_patterns)
+
+# Online Materials
+
+## Getting Started in Computational Chemistry
+
+## Parrallel Programming
