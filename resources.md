@@ -73,14 +73,14 @@ MolSSI offers 1-2 day workshops as well as online tutorial materials. All tutori
 
 ## Online Materials
 
-## Getting Started in Computational Chemistry
+### Getting Started in Computational Chemistry
 **Description**: A curated list of tutorials for common computational skills that students need to get started in copmutational chemistry research such as use of the terminal, text editors, and remote computing resources.
 
 [{% octicon book %} View Materials](https://molssi-education.github.io/getting-started-computational-chemistry/index.html) | 
 [{% octicon mark-github} View GitHub Repository %} View GitHub Repository](https://github.com/MolSSI-Education/getting-started-computational-chemistry)
 
 
-## Parrallel Programming
+### Parrallel Programming
 **Description**: These lessons introduce basic parallelization techniques and best practices.  There are several examples that cover the topic of distributed-memory parallelization using the Message Passing Interface (MPI) and shared-memory parallelization using OpenMP.  Examples are provided both in C++ and in Python using the mpi4py wrapper. Both the MPI and OpenMP tutorials begin with simple “Hello World!” codes and culminate in the parallelization of a simple molecular dynamics code.
 
 [{% octicon book %} View Materials](https://molssi-education.github.io/parallel-programming/) | 
