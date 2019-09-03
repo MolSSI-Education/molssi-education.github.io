@@ -81,3 +81,9 @@ MolSSI offers 1-2 day workshops as well as online tutorial materials. All tutori
 
 [{% octicon book %} View Materials](https://molssi-education.github.io/parallel-programming/) | 
 [{% octicon mark-github} View GitHub Repository %} View GitHub Repository](https://github.com/MolSSI-Education/parallel-programming)
+
+## Quantum Mechanics Tools
+**Description**: The qm-tools workshop introduces several types of quantum chemistry calculations a student might use, including geometry optimizations, inter- and intra-molecular potential energy scans, and energy calculations.  Some basic file parsing and data analysis is also discussed.
+
+[{% octicon book %} View Materials](https://github.com/MolSSI-Education/qm-tools/) | 
+[{% octicon mark-github} View GitHub Repository %} View GitHub Repository](https://molssi-education.github.io/qm-tools/)
