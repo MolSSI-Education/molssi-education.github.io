@@ -50,6 +50,19 @@ MolSSI offers 1-2 day workshops as well as online tutorial materials. All tutori
 [{% octicon book %} View Workshop Materials](https://molssi-education.github.io/CMS-Python-DevOps/) | 
 [{% octicon mark-github} View GitHub Repository %} View GitHub Repository](https://github.com/MolSSI-Education/CMS-Python-DevOps/)
 
+## Data Analysis using Python
+**Description**: The Python Data Analysis Tutorials are short stand-alone tutorials, which build on and expand the Python Scripting Workshop. These lessons include introductions to specific libraries including NumPy and pandas.
+
+<details>
+    <summary>Workshop Topics</summary>
+    <li> Features of NumPy Arrays
+    <li> Introduction to Data Analysis using Pandas
+</details>
+<br>
+
+[{% octicon book %} View Workshop Materials](https://molssi-education.github.io/python-data-analysis/) | 
+[{% octicon mark-github} View GitHub Repository %} View GitHub Repository](https://github.com/molssi-education/python-data-analysis)
+
 ## Object Oriented Programming and Design Patterns
 **Description**:The Object Oriented Programming (OOP) and Design Patterns tutorials provide a brief introduction to good software design principles. These tutorials are designed for graduate students, post docs, or advanced undergraduate students. Students will develop python modules using OOP principles and software design patterns.
 
