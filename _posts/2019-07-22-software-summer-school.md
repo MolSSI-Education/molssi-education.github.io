@@ -8,7 +8,7 @@ Over 50 students and instructors gathered at the [Texas Advanced Computing Cente
 
 Students were placed into groups and completed projects where they converted a Python script which performed a simulation into a collaborative software project. 
 
-<img src ="../../../../images/2019_summer_school_students.jpg">
+<img src ="../../../../images/event_images/2019_summer_school_students.jpg">
 <figcaption> The 2019 MolSSI Software Summer School students </figcaption><br><br>
 
 Check out the curriculum schedule below, online materials are linked where available.
