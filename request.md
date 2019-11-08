@@ -19,9 +19,7 @@ This course is taught in the Python programming language and includes the follow
 - Continuous integration tools
 - Creating documentation using Sphinx and hosting your documentation online on ReadTheDocs.
 
-More Details:
-	Audience: 
-This workshop is for people who already have experience in the Python programming language, and would like to learn how to develop their scripts into packages others can use.
+This workshop is 1.5 in length. The target audience is people who already have experience in the Python programming language who would like to learn how to develop their scripts into packages others can use.
 
 To see more about topics covered in this workshop, please refer to the [online materials](https://molssi-education.github.io/python-package-best-practices/index.html).
 
