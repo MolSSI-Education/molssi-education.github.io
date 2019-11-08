@@ -47,8 +47,8 @@ MolSSI offers 1-2 day workshops as well as online tutorial materials. All tutori
 </details>
 <br>
 
-[{% octicon book %} View Workshop Materials](https://molssi-education.github.io/CMS-Python-DevOps/) | 
-[{% octicon mark-github} View GitHub Repository %} View GitHub Repository](https://github.com/MolSSI-Education/CMS-Python-DevOps/)
+[{% octicon book %} View Workshop Materials](https://molssi-education.github.io/python-package-best-practices/index.html) | 
+[{% octicon mark-github} View GitHub Repository %} View GitHub Repository](https://github.com/MolSSI-Education/python-package-best-practices)
 
 ## Data Analysis using Python
 **Description**: The Python Data Analysis Tutorials are short stand-alone tutorials, which build on and expand the Python Scripting Workshop. These lessons include introductions to specific libraries including NumPy and pandas.
