@@ -5,7 +5,7 @@ layout: default
 
 # April 2020 CookieCutter Fix
 
-There has been a change recently in the URL for Miniconda which will cause all builds using the MolSSI CookieCutter to fail.
+There has been a change recently in the URL for Miniconda which will cause all builds using the MolSSI CookieCutter to fail. You can see more discussion of this on the [GitHub issue](https://github.com/MolSSI/cookiecutter-cms/issues/103).
 
 ## The Problem
 
@@ -28,7 +28,6 @@ To fix this problem and get your builds working again, open the file `devtools/t
 MINICONDA_MD5=$(curl -s https://repo.continuum.io/miniconda/ | grep -A3 $MINICONDA | sed -n '4p' | sed -n 's/ *<td>\(.*\)<\/td> */\1/p')		 
 wget -q https://repo.continuum.io/miniconda/$MINICONDA
 ~~~
-{: .language-bash}
 
 to
 
