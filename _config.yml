@@ -17,9 +17,9 @@ title: MolSSI Education
 email: education@molssi.org
 description: >- # this means to ignore newlines until "baseurl:"
   A website for MolSSI Education.
-repository: molssi-education/molssi-education.github.io
+repository: molssi-education/education.molssi.org
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "molssi-education.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "education.molssi.org" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: MolSSI_NSF
 github_username:  molssi-education
 
@@ -33,7 +33,6 @@ plugins:
 header_pages:
   - index.md
   - resources.md
-  - external-resources.md
   - events.md
   - calendar.md
   - request.md
