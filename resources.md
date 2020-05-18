@@ -212,7 +212,7 @@ MolSSI offers 1-2 day workshops as well as online tutorial materials. All tutori
 **Description**: The ab initio MD workshop provides a hands-on introduction to concepts and techniques in computational molecular science through the development of a simple molecular dynamics program using forces derived from ab initio calculations.  Students compute potential energy surfaces for a simple diatomic molecule using the electronic structure package psi4, implement and validate a velocity Verlet algorithm, then simulate and analyze the vibrational motion of their diatomic system for several different levels of theory.  The workshop concludes with small group projects and presentations.
 
 [{% octicon book %} View Materials](http://education.molssi.org/ab-initio-md/) | 
-[{% octicon mark-github} View GitHub Repository %} View GitHub Repository](https://github.com/MolSSI-Education/mm-tools/)
+[{% octicon mark-github} View GitHub Repository %} View GitHub Repository](https://github.com/MolSSI-Education/ab-initio-md)
 
 
 </div>
