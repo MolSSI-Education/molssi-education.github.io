@@ -191,7 +191,7 @@ MolSSI offers 1-2 day workshops as well as online tutorial materials. All tutori
 <div id="molecular-modeling" class="tabcontent">
 
 ## <a class="headerLink" href="https://education.molssi.org/getting-started-computational-chemistry/index.html" target="_blank">Getting Started in Computational Chemistry</a>
-**Description**: A curated list of tutorials for common computational skills that students need to get started in copmutational chemistry research such as use of the terminal, text editors, and remote computing resources.
+**Description**: A curated list of tutorials for common computational skills that students need to get started in computational chemistry research such as use of the terminal, text editors, and remote computing resources.
 
 [{% octicon book %} View Materials](https://education.molssi.org/getting-started-computational-chemistry/index.html) | 
 [{% octicon mark-github} View GitHub Repository %} View GitHub Repository](https://github.com/MolSSI-Education/getting-started-computational-chemistry)
