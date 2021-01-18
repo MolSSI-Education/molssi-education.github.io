@@ -1,0 +1,23 @@
+- title: Python Data and Scripting Workshop
+  link: python_scripting_cms
+  description: The MolSSI Python Data and Scripting workshop is designed for students who are currently involved in, or planning to start computational chemistry research. This workshop is designed to help students develop practical programming skills that will benefit their undergraduate research, and will take students through introductory programming and scripting with Python to version control and sharing their code with others. NO prior programming experience is required.
+  topics: <li> Basic Python syntax and control structures
+    <li> Reading and writing files
+    <li> File manipulation and parsing
+    <li> Analyzing and graphing data
+    <li> Writing functions
+    <li> Creating command line programs from Python scripts
+    <li> Basic testing using PyTest
+    <li> Version control with git
+    <li> Sharing code on GitHub
+
+- title: Data Analysis using Python
+  link: python-data-analysis
+  description: The Python Data Analysis Tutorials are short stand-alone tutorials, which build on and expand the Python Scripting Workshop. These lessons include introductions to specific libraries including NumPy and pandas.
+  topics: <li> Features of NumPy Arrays
+    <li> Introduction to Data Analysis using Pandas
+
+- title: Parallel Programming
+  link: parallel-programming
+  description: These lessons introduce basic parallelization techniques and best practices. There are several examples that cover the topic of distributed-memory parallelization using the Message Passing Interface (MPI) and shared-memory parallelization using OpenMP. Examples are provided both in C++ and in Python using the mpi4py wrapper. Both the MPI and OpenMP tutorials begin with simple “Hello World!” codes and culminate in the parallelization of a simple molecular dynamics code.
+  topics:
