@@ -1,0 +1,15 @@
+- title: Getting Started in Computational Chemistry
+  link: getting-started-computational-chemistry
+  description: A curated list of tutorials for common computational skills that students need to get started in computational chemistry research such as use of the terminal, text editors, and remote computing resources.
+
+- title: Quantum Mechanics Tools
+  link: qm-tools
+  description: The qm-tools workshop introduces several types of quantum chemistry calculations a student might use, including geometry optimizations, inter- and intra-molecular potential energy scans, and energy calculations. Some basic file parsing and data analysis is also discussed.
+
+- title: Molecular Mechanics Tools
+  link: mm-tools
+  description: The mm-tools workshop introduces molecular dynamics simulations using the software OpenMM, and analysis of simulation results using MDTraj. The theoretical background of MD simulations are discussed, and students simulate and analyze alkane and a simple protein system. This workshop also covers putting code on GitHub and includes an exercise where students implement a new software feature and submit a pull request.
+
+- title: ab initio MD
+  link: ab-initio-md
+  description: The ab initio MD workshop provides a hands-on introduction to concepts and techniques in computational molecular science through the development of a simple molecular dynamics program using forces derived from ab initio calculations. Students compute potential energy surfaces for a simple diatomic molecule using the electronic structure package psi4, implement and validate a velocity Verlet algorithm, then simulate and analyze the vibrational motion of their diatomic system for several different levels of theory. The workshop concludes with small group projects and presentations.

@@ -1,0 +1,25 @@
+- title: Best Practices Workshop
+  link: python-package-best-practices
+  description: Our best practices workshops introduce and promote <a href="https://molssi.org/education/best-practices/">MolSSI best practices</a> to workshop attendees. This workshop is designed for graduate students, post docs, or advanced undergraduate students. In this course, students create a Python package using best practices and the <a href="https://github.com/MolSSI/cookiecutter-cms">MolSSI CookieCutter</a>, and host this project on GitHub.
+  topics: <li> Conda and Python environments
+    <li> Structuring a Python project using the MolSSI CookieCutter.
+    <li> Version control using git
+    <li> Python Coding Style
+    <li> Online code repositories such as GitHub
+    <li> GitHub collaboration
+    <li> Unit testing and the PyTest testing framework
+    <li> Code coverage
+    <li> Continuous integration tools
+    <li> Documentation for Python packages using Sphinx.
+
+- title: Object Oriented Programming and Design Patterns
+  link: oop_and_design_patterns
+  description: The Object Oriented Programming (OOP) and Design Patterns tutorials provide a brief introduction to good software design principles. These tutorials are designed for graduate students, post docs, or advanced undergraduate students. Students will develop python modules using OOP principles and software design patterns.
+  topics: <li> Encapsulation
+    <li> Data Abstraction
+    <li> Inheritance
+    <li> Polymorphism
+    <li> Factory Design Pattern
+    <li> Adapter Design Pattern
+    <li> Facade Design Pattern
+    <li> Observer Design Pattern
