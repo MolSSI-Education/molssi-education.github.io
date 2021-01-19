@@ -34,6 +34,7 @@ plugins:
 header_pages:
   - index.md
   - resources.md
+  - events-now.md
   - events.md
   - calendar.md
   - request.md
@@ -41,7 +42,16 @@ header_pages:
   # Gems
 plugins:
   - jekyll-octicons
-  
+
+# --- Events --- #
+# Events are displayed via a collection to allow for single page generation.
+
+# Collections
+collections:
+  events:
+    output: true
+    permalink: /:collection/:path
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
