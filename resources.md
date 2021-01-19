@@ -18,17 +18,16 @@ MolSSI offers 1-2 day workshops as well as online tutorial materials. All tutori
 <!-- Tab content -->
 <div id="Programming" class="tabcontent">
 {%  for resource in site.data.programming %}
-
-  <h2>
-    <a class="headerLink" href="https://education.molssi.org/{{ resource.link}}" target="_blank" >{{ resource.title }}</a>
-  </h2>
-  <p>
-    <strong>Description: </strong> {{ resource.description  }}
-  </p>
-  <details>
-    <summary>Workshop Topics</summary>
-      {{resource.topics}}
-  </details>
+<h2>
+  <a class="headerLink" href="https://education.molssi.org/{{ resource.link}}" target="_blank" >{{ resource.title }}</a>
+</h2>
+<p>
+  <strong>Description: </strong> {{ resource.description  }}
+</p>
+<details>
+  <summary>Workshop Topics</summary>
+    {{resource.topics}}
+</details>
 
 [{% octicon book %} View Workshop Materials](https://education.molssi.org/{{ resource.link}}) |
 [{% octicon mark-github} View GitHub Repository %} View GitHub Repository](https://github.com/MolSSI-Education/{{ resource.link}})
@@ -38,16 +37,16 @@ MolSSI offers 1-2 day workshops as well as online tutorial materials. All tutori
 
 <div id="software-development" class="tabcontent">
 {%  for resource in site.data.software_development %}
-  <h2>
-    <a class="headerLink" href="https://education.molssi.org/{{ resource.link }}" target="_blank" >{{ resource.title }}</a>
-  </h2>
-  <p>
-    <strong>Description: </strong> {{ resource.description  }}
-  </p>
-  <details>
-    <summary>Workshop Topics</summary>
-      {{resource.topics}}
-  </details>
+<h2>
+  <a class="headerLink" href="https://education.molssi.org/{{ resource.link }}" target="_blank" >{{ resource.title }}</a>
+</h2>
+<p>
+  <strong>Description: </strong> {{ resource.description  }}
+</p>
+<details>
+  <summary>Workshop Topics</summary>
+    {{resource.topics}}
+</details>
 
 [{% octicon book %} View Workshop Materials](https://education.molssi.org/{{ resource.link}}) |
 [{% octicon mark-github} View GitHub Repository %} View GitHub Repository](https://github.com/MolSSI-Education/{{ resource.link}})
@@ -56,15 +55,13 @@ MolSSI offers 1-2 day workshops as well as online tutorial materials. All tutori
 </div>
 
 <div id="molecular-modeling" class="tabcontent">
-
 {%  for resource in site.data.molecular_modeling %}
-
-  <h2>
-    <a class="headerLink" href="https://education.molssi.org/{{ resource.link }}" target="_blank" >{{ resource.title }}</a>
-  </h2>
-  <p>
-    <strong>Description: </strong> {{ resource.description  }}
-  </p>
+<h2>
+  <a class="headerLink" href="https://education.molssi.org/{{ resource.link }}" target="_blank" >{{ resource.title }}</a>
+</h2>
+<p>
+  <strong>Description: </strong> {{ resource.description  }}
+</p>
 
 [{% octicon book %} View Workshop Materials](https://education.molssi.org/{{ resource.link}}) |
 [{% octicon mark-github} View GitHub Repository %} View GitHub Repository](https://github.com/MolSSI-Education/{{ resource.link}})
@@ -73,20 +70,16 @@ MolSSI offers 1-2 day workshops as well as online tutorial materials. All tutori
 </div>
 
 <div id='external-resources' class='tabcontent'>
-
 Here are a number of educational resources that are external to the MolSSI, though many of these have been developed by MolSSI Software Scientists, MolSSI Associates, and other partners.
-
 {%  for resource in site.data.external_resources %}
-
-  <h2>
-    <a class="headerLink" href="{{ resource.link}}" target="_blank" >{{ resource.title }}</a>
-  </h2>
-  <p>
-    <strong>Description: </strong> {{ resource.description  }}
-  </p>
+<h2>
+  <a class="headerLink" href="{{ resource.link}}" target="_blank" >{{ resource.title }}</a>
+</h2>
+<p>
+  <strong>Description: </strong> {{ resource.description  }}
+</p>
 
 [{% octicon book %} View Workshop Materials]({{ resource.link}})
-
 {% endfor %}
 
 </div>
