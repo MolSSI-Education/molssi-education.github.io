@@ -38,7 +38,7 @@ header_pages:
   - calendar.md
   - request.md
 
-  # Gems
+# Gems
 plugins:
   - jekyll-octicons
 
@@ -51,6 +51,13 @@ collections:
     output: true
     permalink: /:collection/:path
 
+# Defaults
+defaults:
+  - scope:
+      path: "_events"
+      type: "events"
+    values:
+      layout: post
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.

@@ -1,4 +1,5 @@
 <div class="resource-content">
+  {%- if resource.link -%}
   <h2>
     <a
       class="headerLink"
@@ -7,6 +8,18 @@
       >{{ resource.title }}</a
     >
   </h2>
+  {%- endif -%}
+  {%- if resource.full-link -%}
+  <h2>
+    <a
+      class="headerLink"
+      href="{{ resource.full-link }}"
+      target="_blank"
+      >{{ resource.title }}</a
+    >
+  </h2>
+  {%- endif -%}
+
   <p><strong>Description: </strong> {{ resource.description }}</p>
 
   {%- if resource.topics -%}
@@ -17,11 +30,11 @@
   {%- endif -%}
 
   {%- if resource.link -%}
-  <span>{% octicon book %}</span>  <a href="https://education.molssi.org/{{ resource.link }}">View Workshop Materials</a> |
-  <span>{% octicon mark-github %}</span>  <a href="https://github.com/MolSSI-Education/{{ resource.link }}">View GitHub Repository</a>
+  <span>{% octicon book %}</span>  <a target="_blank" href="https://education.molssi.org/{{ resource.link }}">View Workshop Materials</a> |
+  <span>{% octicon mark-github %}</span>  <a target="_blank" href="https://github.com/MolSSI-Education/{{ resource.link }}">View GitHub Repository</a>
   {%- endif -%}
 
   {%- if resource.full-link -%}
-  <span>{% octicon book %}</span>  <a href="{{ resource.full-link }}">View Workshop Materials</a>
+  <span>{% octicon book %}</span>  <a target="_blank" href="{{ resource.full-link }}">View Workshop Materials</a>
   {%- endif -%}
 </div>
