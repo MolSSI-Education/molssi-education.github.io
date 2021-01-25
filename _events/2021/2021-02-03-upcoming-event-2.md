@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Upcoming Event Test 2'
-location: 'Austin, TX'
+location: 'Dallas, TX'
 expires: 2021-02-03
 event_date: 'Feb 2, 2021'
 repeated: false

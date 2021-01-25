@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Repeated Event Test'
-location: 'Austin, TX'
+location: 'Blacksburg, VA'
 expires: 2020-05-06
 event_date: 'Recurring, May 6 every year'
 repeated: true
