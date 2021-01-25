@@ -29,7 +29,7 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-
+# define the navbar link
 header_pages:
   - index.md
   - resources.md
@@ -37,13 +37,19 @@ header_pages:
   - calendar.md
   - request.md
 
-  # Gems
+social-links:
+  - github: MolSSI-Education
+  - twitter: MolSSI_NSF
+  - linkedin: molecular-sciences-software-institute
+
+# Gems
 plugins:
   - jekyll-octicons
+  - jekyll-maps
 
 maps:
-    google:
-      api_key: AIzaSyAkMUoQM9UA-CNJklZKspMl1LmJRAUr_Sg
+  google:
+    api_key: AIzaSyAkMUoQM9UA-CNJklZKspMl1LmJRAUr_Sg
 # --- Events --- #
 # Events are displayed via a collection to allow for single page generation.
 
