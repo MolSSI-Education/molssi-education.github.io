@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Past Event Test'
-location: 'Austin, TX'
+location: 'Raleigh, NC'
 expires: 2021-01-03
 event_date: 'Jan 3, 2021'
 repeated: false

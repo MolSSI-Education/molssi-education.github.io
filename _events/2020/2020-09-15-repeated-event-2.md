@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Repeated Event Test 2'
-location: 'Blacksburg, VA'
+location: 'Richmond, VA'
 expires: 2020-09-15
 event_date: 'Recurring, Sept 15 every year'
 repeated: true
