@@ -2,7 +2,10 @@
 ---
 
 @import 'minima';
-
+body {
+	box-sizing: border-box;
+	overflow-x: hidden;
+}
 details {
 	margin-bottom: 15px;
 }
@@ -10,19 +13,20 @@ details {
 #logo-container {
 	margin-left: auto;
 	margin-right:auto;
-	width: 80%;
-	margin-bottom: 20px;
+	width: 60%;
+	margin-bottom: 10px;
+	margin-top: 10px;
 }
 
 #molssi-logo {
-	width: 160%;
+	width: 140%;
 	height: auto;
-	padding-bottom: 20px;
+	padding-bottom: 10px;
 }
 
 #particles-js {
 	position: absolute;
-	background-image: linear-gradient(to bottom, #ed1c24ff , white);
+	background-image: linear-gradient(to bottom, #ed1c24ff, white );
 	top:0;
 	left:0;
   width: 100vw;
@@ -31,9 +35,27 @@ details {
   background-color:  #ed1c24ff;
 }
 
+#navbar-logo {
+	display: inline-block;
+	height: 7vh;
+	margin:0 5px;
+}
+
+.navbar {
+	padding:0 10px;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+.site-header {
+	width: 100%;
+}
 .resource-content {
 	margin-top: 10px;
 }
+
 /* Style the tab */
 .tab {
 	overflow: hidden;

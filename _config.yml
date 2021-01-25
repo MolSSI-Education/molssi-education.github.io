@@ -30,7 +30,6 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-# Navigation
 header_pages:
   - index.md
   - resources.md
@@ -42,6 +41,9 @@ header_pages:
 plugins:
   - jekyll-octicons
 
+maps:
+    google:
+      api_key: AIzaSyAkMUoQM9UA-CNJklZKspMl1LmJRAUr_Sg
 # --- Events --- #
 # Events are displayed via a collection to allow for single page generation.
 
