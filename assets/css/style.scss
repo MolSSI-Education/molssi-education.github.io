@@ -2,8 +2,37 @@
 ---
 
 @import 'minima';
+
 details {
 	margin-bottom: 15px;
+}
+
+#logo-container {
+	margin-left: auto;
+	margin-right:auto;
+	width: 80%;
+	margin-bottom: 20px;
+}
+
+#molssi-logo {
+	width: 160%;
+	height: auto;
+	padding-bottom: 20px;
+}
+
+#particles-js {
+	position: absolute;
+	background-image: linear-gradient(to bottom, #ed1c24ff , white);
+	top:0;
+	left:0;
+  width: 100vw;
+	height: 60vh;
+	z-index: -1;
+  background-color:  #ed1c24ff;
+}
+
+.resource-content {
+	margin-top: 10px;
 }
 /* Style the tab */
 .tab {

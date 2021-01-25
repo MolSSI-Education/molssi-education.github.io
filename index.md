@@ -5,8 +5,9 @@ layout: default
 
 <div id="particles-js"></div>
 
-<center><img src="images/molssi_main_horizontal.png" alt="MolSSI Logo" width="400"></center>
-<br><br>
+<div id="logo-container">
+  <img src="images/molssi_main_horizontal.png" id="molssi-logo" alt="MolSSI Logo" width="400">
+</div>
 
 # Education at MolSSI
 
