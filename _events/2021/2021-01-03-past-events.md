@@ -1,9 +1,9 @@
 ---
 layout: post
-title: 'Upcoming Event Test 2'
+title: 'Past Event Test'
 location: 'Austin, TX'
-expires: 2021-02-03
-event_date: 'Feb 2, 2021'
+expires: 2021-01-03
+event_date: 'Jan 3, 2021'
 repeated: false
 ---
 

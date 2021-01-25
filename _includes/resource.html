@@ -1,0 +1,27 @@
+<div class="resource-content">
+  <h2>
+    <a
+      class="headerLink"
+      href="https://education.molssi.org/{{ resource.link}}"
+      target="_blank"
+      >{{ resource.title }}</a
+    >
+  </h2>
+  <p><strong>Description: </strong> {{ resource.description }}</p>
+
+  {%- if resource.topics -%}
+  <details>
+    <summary>Workshop Topics</summary>
+    {{ resource.topics }}
+  </details>
+  {%- endif -%}
+
+  {%- if resource.link -%}
+  <span>{% octicon book %}</span>  <a href="https://education.molssi.org/{{ resource.link }}">View Workshop Materials</a> |
+  <span>{% octicon mark-github %}</span>  <a href="https://github.com/MolSSI-Education/{{ resource.link }}">View GitHub Repository</a>
+  {%- endif -%}
+
+  {%- if resource.full-link -%}
+  <span>{% octicon book %}</span>  <a href="{{ resource.full-link }}">View Workshop Materials</a>
+  {%- endif -%}
+</div>

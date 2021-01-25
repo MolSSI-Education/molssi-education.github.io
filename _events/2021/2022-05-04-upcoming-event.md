@@ -2,8 +2,8 @@
 layout: post
 title: 'Upcoming Event Test'
 location: 'Austin, TX'
-expires: 2021-05-04
-event_date: 'May 4-10,2021'
+expires: 2022-05-04
+event_date: 'May 4-10,2022'
 repeated: false
 ---
 
