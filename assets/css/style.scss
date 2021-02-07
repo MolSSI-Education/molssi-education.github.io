@@ -26,13 +26,13 @@ details {
 
 #particles-js {
 	position: absolute;
-	background-image: linear-gradient(to bottom, #ed1c24ff, white );
+	// background-image: linear-gradient(to bottom, #ed1c24ff, white );
 	top:0;
 	left:0;
   width: 100vw;
-	height: 60vh;
+	height: 100vh;
 	z-index: -1;
-  background-color:  #ed1c24ff;
+  // background-color:  #ed1c24ff;
 }
 
 #navbar-logo {
@@ -68,6 +68,7 @@ details {
 
 .fab {
 	font-size: 2rem;
+	color: #ed1c24ff;
 }
 /* Style the tab */
 .tab {
