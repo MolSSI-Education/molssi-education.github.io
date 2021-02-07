@@ -36,6 +36,7 @@ header_pages:
   - events.md
   - calendar.md
   - request.md
+  - map.md
 
 social-links:
   - github: MolSSI-Education
@@ -47,9 +48,11 @@ plugins:
   - jekyll-octicons
   - jekyll-maps
 
+
 maps:
   google:
     api_key: AIzaSyAkMUoQM9UA-CNJklZKspMl1LmJRAUr_Sg
+
 # --- Events --- #
 # Events are displayed via a collection to allow for single page generation.
 
