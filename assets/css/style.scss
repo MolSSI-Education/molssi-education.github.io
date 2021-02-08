@@ -2,12 +2,23 @@
 ---
 
 @import 'minima';
+
 body {
 	box-sizing: border-box;
 	overflow-x: hidden;
 }
 details {
 	margin-bottom: 15px;
+}
+
+.wrapper {
+	max-width: 80vw;
+}
+
+.tab {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
 }
 
 #logo-container {
@@ -125,4 +136,11 @@ details {
 
 .tabcontent h2 a {
 	color: black;
+}
+
+#eventMap {
+	position:absolute;
+	top: 10vh;
+	left: 10vw;
+	margin:auto;
 }
