@@ -49,6 +49,8 @@ Plotly.d3.csv('./assets/events.csv', function (err, rows) {
 	var layout = {
 		title: 'MolSSI Events Map',
 		showlegend: false,
+		height: 1000,
+		width: 1200,
 		geo: {
 			scope: 'usa',
 			projection: {

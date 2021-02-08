@@ -20,7 +20,7 @@ layout: default
   </ul>
   {% assign sorted_events = (site.events | sort: 'expires') %}
   <ul class="post-list">
-  {% for event in sorted_events %}
+  {% for event in site.events %}
     {%- if event.repeated == false -%}
       {%- capture nowunix -%}{{'now' | date: '%s'}}{%- endcapture -%}
       {%- capture expires -%}{{event.expires | date: '%s'}}{%- endcapture -%}
