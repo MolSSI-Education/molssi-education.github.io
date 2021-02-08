@@ -12,13 +12,16 @@ details {
 }
 
 .wrapper {
-	max-width: 80vw;
+	max-width: 70vw;
 }
 
 .tab {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
+}
+button .tablink {
+	width: 100%;
 }
 
 #logo-container {
@@ -139,8 +142,11 @@ details {
 }
 
 #eventMap {
-	position:absolute;
-	top: 10vh;
-	left: 10vw;
+	position: relative;
+	height: 80vh;
 	margin:auto;
+}
+
+.modebar {
+	opacity: 0;
 }
