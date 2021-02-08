@@ -43,15 +43,6 @@ social-links:
   - twitter: MolSSI_NSF
   - linkedin: molecular-sciences-software-institute
 
-# Gems
-plugins:
-  - jekyll-octicons
-  - jekyll-maps
-
-
-maps:
-  google:
-    api_key: AIzaSyAkMUoQM9UA-CNJklZKspMl1LmJRAUr_Sg
 
 # --- Events --- #
 # Events are displayed via a collection to allow for single page generation.
