@@ -18,7 +18,7 @@ Plotly.d3.csv('./assets/events.csv', function (err, rows) {
 		],
 		citySize = [],
 		hoverText = [],
-		scale = 3;
+		scale = 10;
 
 	for (var i = 0; i < cityEventsFreq.length; i++) {
 		var currentSize = cityEventsFreq[i] * scale;
