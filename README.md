@@ -23,4 +23,4 @@ To add a event, find _events folder and create a new file.
 For each event, be sure have `title`, `location`, `expires` (YYYY-MM-DD), `event_date` (format doesn't matter, this part is read as text), and boolean value `repeated`. Don't forget to update the events map data too.
 
 ## Events Map Update
-Events map is currently running on static data stores in `assets/events.csv`. Everytime when a new event is added, the frequency of events in certain city needs to be manually updated to add 1 onto it.
+Events map is currently running on static data stores in `assets/events.csv`. Everytime when a new event is added, the frequency of events in certain city needs to be manually updated to add 1 onto it. Longitude and latitude for a city can be found [here](https://www.latlong.net/category/cities-236-15.html). Online event is defaulted to Blacksburg, VA.
