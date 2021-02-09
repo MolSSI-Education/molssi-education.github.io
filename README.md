@@ -12,12 +12,15 @@ To run this website locally,
 3. Run `bundle exec jekyll serve` in terminal. It builds the website and runs it on a local web server at `http://localhost:4000`, rebuilding the site any time you make a change.
 
 
-## Resources Management
+## Resources Update
 
 Resources page will automatically retrieve the data from _data folder. Each category (tab) has a `.yml` file. Assuming all the resources links have "https://education.molssi.org/" as domain except for the external resouces, to add a new resource, go to the file accordingly and add a key/value pairs in yml format. Only the relative path needs to be added as link value. For external resource, full link needs to be added as full-link value.
 
-## Events Management
+## Events Update
 
 To add a event, find _events folder and create a new file.
 
-For each event, be sure have `title`, `location`, `expires` (YYYY-MM-DD), `event_date` (format doesn't matter, this part is read as text), and boolean value `repeated`
+For each event, be sure have `title`, `location`, `expires` (YYYY-MM-DD), `event_date` (format doesn't matter, this part is read as text), and boolean value `repeated`. Don't forget to update the events map data too.
+
+## Events Map Update
+Events map is currently running on static data stores in `assets/events.csv`. Everytime when a new event is added, the frequency of events in certain city needs to be manually updated to add 1 onto it.
