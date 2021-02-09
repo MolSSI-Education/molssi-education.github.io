@@ -1,9 +1,9 @@
 ---
 layout: post
-title: 'June Python Scripting Webinar'
+title: 'Upcoming Event 1'
 location: 'Online'
-expires: 2020-06-02
-event_date: 'June 2, 2020'
+expires: 2021-06-02
+event_date: 'June 2, 2021'
 repeated: false
 ---
 

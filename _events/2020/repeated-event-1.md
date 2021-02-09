@@ -1,10 +1,10 @@
 ---
 layout: post
-title: 'June Python Scripting Webinar'
+title: 'Repeated Event 1'
 location: 'Online'
-expires: 2020-06-02
-event_date: 'June 2, 2020'
-repeated: false
+expires: 2020-05-02
+event_date: 'Recurring May 2, 2020'
+repeated: true
 ---
 
 This page contains video recordings and homework assignments from our June 2020 webinar series. If you would like to follow along with the videos, be sure to follow the [set-up instructions](https://education.molssi.org/python_scripting_cms/setup.html) for this series. You can find the online material [here](https://education.molssi.org/python_scripting_cms/), and each topic is linked below the relevant video as well. These workshops were interactive, with students following along as the instructor taught. If you are completing the workshop from the videos, also try to follow along!
