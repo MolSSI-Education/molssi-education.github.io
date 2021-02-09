@@ -43,6 +43,10 @@ social-links:
   - twitter: MolSSI_NSF
   - linkedin: molecular-sciences-software-institute
 
+# Gems
+plugins:
+  - jekyll-octicons
+
 
 # --- Events --- #
 # Events are displayed via a collection to allow for single page generation.
