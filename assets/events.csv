@@ -1,4 +1,4 @@
-name,frq,lat,lon
-Blacksburg VA,1,37.2296566,-80.4136767
-Austin TX,1,30.2711286,-97.7436995
-Arlington,1,38.8967784,-77.0724777
+name,frq,most_recent,lat,lon
+Blacksburg VA,1,June Python Scripting Webinar,37.2296566,-80.4136767
+Austin TX,1,MolSSI Software Summer School,30.2711286,-97.7436995
+Arlington,1,Teach the Teachers,38.8967784,-77.0724777
