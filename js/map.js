@@ -7,6 +7,7 @@ Plotly.d3.csv('./assets/events.csv', function (err, rows) {
 
 	var cityName = unpack(rows, 'name'),
 		cityEventsFreq = unpack(rows, 'frq'),
+		mostRecentEvent = unpack(rows, 'most_recent'),
 		cityLat = unpack(rows, 'lat'),
 		cityLon = unpack(rows, 'lon'),
 		color = [
@@ -22,7 +23,7 @@ Plotly.d3.csv('./assets/events.csv', function (err, rows) {
 
 	for (var i = 0; i < cityEventsFreq.length; i++) {
 		var currentSize = cityEventsFreq[i] * scale;
-		var currentText = cityName[i] + ' Events: ' + cityEventsFreq[i];
+		var currentText = cityName[i] + ' Events: ' + mostRecentEvent[i];
 		citySize.push(currentSize);
 		hoverText.push(currentText);
 	}
