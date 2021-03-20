@@ -1,3 +1,7 @@
 - title: Getting Started in Machine Learning
+<<<<<<< HEAD
   full-link: http://localhost:4000/getting-started-machine-learning
+=======
+  full-link: http://education.molssi.org/getting-started-machine-learning
+>>>>>>> 1904b682d0a20c3c85b80fb874223f5ccdea50f5
   description: A list of resources to get started with machine learning

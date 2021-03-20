@@ -23,12 +23,16 @@ Plotly.d3.csv('./assets/events.csv', function (err, rows) {
 
 	for (var i = 0; i < cityEventsFreq.length; i++) {
 		var currentSize = cityEventsFreq[i] * scale;
+<<<<<<< HEAD
 		var currentText =
 			cityName[i] +
 			' Most Recent Events: ' +
 			mostRecentEvent[i] +
 			' Total Events: ' +
 			cityEventsFreq[i];
+=======
+		var currentText = cityName[i] + ' Events: ' + mostRecentEvent[i];
+>>>>>>> 1904b682d0a20c3c85b80fb874223f5ccdea50f5
 		citySize.push(currentSize);
 		hoverText.push(currentText);
 	}
