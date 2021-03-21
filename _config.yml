@@ -43,6 +43,11 @@ social-links:
   - twitter: MolSSI_NSF
   - linkedin: molecular-sciences-software-institute
 
+social-links:
+  - github: MolSSI-Education
+  - twitter: MolSSI_NSF
+  - linkedin: molecular-sciences-software-institute
+
 # Gems
 plugins:
   - jekyll-octicons

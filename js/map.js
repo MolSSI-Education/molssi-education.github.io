@@ -1,47 +1,48 @@
-Plotly.d3.csv('./assets/events.csv', function (err, rows) {
+Plotly.d3.csv('./assets/education-events.csv', function (err, rows) {
 	function unpack(rows, key) {
 		return rows.map(function (row) {
 			return row[key];
 		});
 	}
 
-	var cityName = unpack(rows, 'name'),
-		cityEventsFreq = unpack(rows, 'frq'),
+	var eventNames = unpack(rows, 'Event Name'),
+		participantsNo = unpack(rows, 'Number of participants'),
+		eventYear = unpack(rows, 'event year'),
+		locations = unpack(rows, 'Location (city, state)'),
 		cityLat = unpack(rows, 'lat'),
 		cityLon = unpack(rows, 'lon'),
-		color = [
-			,
-			'rgb(255,65,54)',
-			'rgb(133,20,75)',
-			'rgb(255,133,27)',
-			'lightgrey',
-		],
-		citySize = [],
-		hoverText = [],
-		scale = 10;
+		hoverTexts = [];
 
-	for (var i = 0; i < cityEventsFreq.length; i++) {
-		var currentSize = cityEventsFreq[i] * scale;
-		var currentText = cityName[i] + ' Events: ' + cityEventsFreq[i];
-		citySize.push(currentSize);
-		hoverText.push(currentText);
+	for (var i = 0; i < eventNames.length; i++) {
+		var hoverText =
+			eventNames[i] +
+			'<br> Event Year: ' +
+			eventYear[i] +
+			'<br> Number of Participants: ' +
+			participantsNo[i] +
+			'<br> Location: ' +
+			locations[i];
+
+		hoverTexts.push(hoverText);
 	}
+	console.log({ eventNames, eventYear, locations, hoverTexts });
 
 	var data = [
 		{
 			type: 'scattergeo',
-			locationmode: 'USA-states',
+			mode: 'markers',
 			lat: cityLat,
 			lon: cityLon,
 			hoverinfo: 'text',
-			text: hoverText,
+			hovertext: hoverTexts,
+
 			marker: {
-				size: citySize,
-				color: 'rgb(237, 28, 36)',
+				size: participantsNo,
 				line: {
 					width: 2,
 					color: 'rgb(237, 28, 36)',
 				},
+				color: eventYear,
 			},
 		},
 	];
@@ -49,17 +50,18 @@ Plotly.d3.csv('./assets/events.csv', function (err, rows) {
 	var layout = {
 		title: 'MolSSI Events Map',
 		showlegend: false,
-		height: 1000,
+		height: 750,
 		width: 1200,
 		geo: {
-			scope: 'usa',
+			scope: 'world',
 			projection: {
-				type: 'albers usa',
+				type: 'equirectangular',
 			},
 			showland: true,
 			landcolor: 'rgb(217, 217, 217)',
+			showcountries: true,
+			showsubunits: true,
 			subunitwidth: 1,
-			countrywidth: 10,
 			subunitcolor: 'rgb(255,255,255)',
 			countrycolor: 'rgb(255,255,255)',
 		},

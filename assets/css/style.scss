@@ -39,6 +39,7 @@ button .tablink {
 }
 
 #particles-js {
+	display: none;
 	position: absolute;
 	// background-image: linear-gradient(to bottom, #ed1c24ff, white );
 	top:0;
@@ -144,6 +145,7 @@ button .tablink {
 
 #eventMap {
 	position: relative;
+	top:50px;
 	height: 80vh;
 	margin:auto;
 }

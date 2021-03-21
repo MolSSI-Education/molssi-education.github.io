@@ -5,7 +5,7 @@ layout: default
 
 # MolSSI Education Resources
 
-MolSSI offers 1-2 day workshops as well as online tutorial materials. All tutorials are hosted on GitHub in the MolSSI Education GitHub organization. Workshops and materials here may still be under development. Outside contribution is welcomed and encouraged!
+MolSSI offers 1-2 day workshops as well as online tutorial materials. Most tutorials are hosted on GitHub in the MolSSI Education GitHub organization. Workshops and materials here may still be under development. Outside contribution is welcomed and encouraged!
 
 <!-- Tab links -->
 <div class="tab">
