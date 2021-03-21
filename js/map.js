@@ -16,11 +16,11 @@ Plotly.d3.csv('./assets/education-events.csv', function (err, rows) {
 	for (var i = 0; i < eventNames.length; i++) {
 		var hoverText =
 			eventNames[i] +
-			'\n Event Year: ' +
+			'<br> Event Year: ' +
 			eventYear[i] +
-			'\n Number of Participants: ' +
+			'<br> Number of Participants: ' +
 			participantsNo[i] +
-			'\n Location: ' +
+			'<br> Location: ' +
 			locations[i];
 
 		hoverTexts.push(hoverText);
@@ -31,30 +31,18 @@ Plotly.d3.csv('./assets/education-events.csv', function (err, rows) {
 		{
 			type: 'scattergeo',
 			mode: 'markers',
-			locationmode: 'USA-states',
-			name: eventNames,
 			lat: cityLat,
 			lon: cityLon,
+			hoverinfo: 'text',
 			hovertext: hoverTexts,
-			hoverinfo: 'name+text',
+
 			marker: {
 				size: participantsNo,
-				colorscale: [
-					'#393536',
-					'#613032',
-					'#812c2f',
-					'#a0272c',
-					'#c52228',
-					'#ed1c24',
-				],
 				line: {
 					width: 2,
 					color: 'rgb(237, 28, 36)',
 				},
 				color: eventYear,
-				colorbar: {
-					title: 'Event Year',
-				},
 			},
 		},
 	];
@@ -62,7 +50,7 @@ Plotly.d3.csv('./assets/education-events.csv', function (err, rows) {
 	var layout = {
 		title: 'MolSSI Events Map',
 		showlegend: false,
-		height: 1000,
+		height: 750,
 		width: 1200,
 		geo: {
 			scope: 'world',
