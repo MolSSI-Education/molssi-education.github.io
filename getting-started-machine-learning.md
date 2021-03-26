@@ -50,21 +50,23 @@ For this section, you can take a Machine learning or data science university cou
 ### Neural Networks and Deep learning:
 
 
-Potential (TO BE verified)
-
-  1. [Deep Learning A-Z™: Hands-On Artificial Neural Networks](https://www.udemy.com/course/deeplearning/)
+  1. [Deep Learning for Molecules and Materials](https://whitead.github.io/dmol-book/intro.html)
+  
+  This textbooks covers deep learning for molecules and materials with code examples and theory. It starts from ML and works up to modern methods in deep learning
+  
+  2. [Deep Learning A-Z™: Hands-On Artificial Neural Networks](https://www.udemy.com/course/deeplearning/)
   - Udemy
   - 22 hrs
   - Practical, explains the basics,
   - but NO mathematics
-  2. [Neural Networks and Deep Learning](https://www.coursera.org/learn/neural-networks-deep-learning?specialization=deep-learning)
+  3. [Neural Networks and Deep Learning](https://www.coursera.org/learn/neural-networks-deep-learning?specialization=deep-learning)
   - Coursera (free without certification)
   - From Andrew Ng Deep.ai
   - Theory and how to use → experience
   - Can be taken for free (if Audit), or pay to get a certificate
   - Part of a full 5 courses specialization (RNN,hyperparameters opt, ...etc)
 
-  3. [Improving Deep Neural Networks: Hyperparameter tuning, Regularization, and Optimization](https://www.coursera.org/learn/deep-neural-network?specialization=deep-learning)
+  4. [Improving Deep Neural Networks: Hyperparameter tuning, Regularization, and Optimization](https://www.coursera.org/learn/deep-neural-network?specialization=deep-learning)
   - Part of the above specialization
 
 ### Very comprehensive articles: (not to replace courses)
