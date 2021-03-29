@@ -61,10 +61,16 @@ Plotly.d3.csv('./assets/education-events.csv', function (err, rows) {
 		xaxis: 'x',
 		yaxis: 'y',
 	};
+	var tableContent = [
+		eventNames.reverse(),
+		eventYear.reverse(),
+		locations.reverse(),
+		participantsNo.reverse(),
+	];
 
 	var tableTrace = {
 		type: 'table',
-		columnwidth: [40, 10, 25, 25],
+		columnwidth: [30, 10, 25, 30],
 		header: {
 			values: [
 				['<br>Event Name</br>'],
@@ -78,7 +84,7 @@ Plotly.d3.csv('./assets/education-events.csv', function (err, rows) {
 			font: { family: 'Arial', size: 12, color: 'white' },
 		},
 		cells: {
-			values: [eventNames, eventYear, locations, participantsNo],
+			values: tableContent,
 			align: ['left', 'center'],
 			line: { color: 'black', width: 1 },
 			font: { family: 'Arial', size: 12, color: ['black'] },
