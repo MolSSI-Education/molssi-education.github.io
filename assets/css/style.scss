@@ -12,6 +12,7 @@ details {
 }
 
 .wrapper {
+	height: 100%;
 	max-width: 70vw;
 }
 
@@ -144,12 +145,9 @@ button .tablink {
 }
 
 #eventMap {
-	position: relative;
-	top:50px;
-	height: 80vh;
+	margin-top:0;
+	margin-bottom: 0;
 	margin:auto;
-}
-
-.modebar {
-	opacity: 0;
+  height: 100%;
+  width: 100%;
 }
