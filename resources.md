@@ -9,11 +9,18 @@ MolSSI offers 1-2 day workshops as well as online tutorial materials. Most tutor
 
 <!-- Tab links -->
 <div class="tab">
-  <button class="tablinks" onclick="openCategory(event, 'Programming')", id="defaultOpen">Programming</button>
-  <button class="tablinks" onclick="openCategory(event, 'software-development')">Software Development</button>
-  <button class="tablinks" onclick="openCategory(event, 'molecular-modeling')">Computational Molecular Science</button>
-  <button class="tablinks" onclick="openCategory(event, 'machine-learning')">Machine Learning</button>
-  <button class="tablinks" onclick="openCategory(event, 'external-resources')">External Resources</button>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light tab resources">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse h-100 p-0" id="navbarNav">
+      <button class="tablinks h-100" onclick="openCategory(event, 'Programming')", id="defaultOpen">Programming</button>
+      <button class="tablinks h-100" onclick="openCategory(event, 'software-development')">Software Development</button>
+      <button class="tablinks h-100" onclick="openCategory(event, 'molecular-modeling')">Computational Molecular Science</button>
+      <button class="tablinks h-100" onclick="openCategory(event, 'machine-learning')">Machine Learning</button>
+      <button class="tablinks h-100" onclick="openCategory(event, 'external-resources')">External Resources</button>
+      </div>
+</nav>
 </div>
 
 <!-- Tab content -->
