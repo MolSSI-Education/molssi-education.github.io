@@ -14,12 +14,20 @@ MolSSI offers 1-2 day workshops as well as online tutorial materials. Most tutor
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse h-100 p-0" id="navbarNav">
-      <button class="tablinks h-100" onclick="openCategory(event, 'Programming')", id="defaultOpen">Programming</button>
-      <button class="tablinks h-100" onclick="openCategory(event, 'software-development')">Software Development</button>
-      <button class="tablinks h-100" onclick="openCategory(event, 'molecular-modeling')">Computational Molecular Science</button>
-      <button class="tablinks h-100" onclick="openCategory(event, 'machine-learning')">Machine Learning</button>
-      <button class="tablinks h-100" onclick="openCategory(event, 'external-resources')">External Resources</button>
-      </div>
+    <ul class="navbar-nav">
+      <li class="nav-item" onclick="openCategory(event, 'Programming')", id="defaultOpen">
+        <button class="tablinks h-100">Programming</button>
+      </li>
+      <li class="nav-item" onclick="openCategory(event, 'software-development')">
+        <button class="tablinks h-100">Software Development</button>
+      </li>
+      <li class="nav-item" onclick="openCategory(event, 'molecular-modeling')">
+        <button class="tablinks h-100">Molecular Modeling</button>
+      </li>
+      <li class="nav-item" onclick="openCategory(event, 'external-resources')">
+        <button class="tablinks h-100">External Resources</button>
+      </li>
+    </ul>
 </nav>
 </div>
 
