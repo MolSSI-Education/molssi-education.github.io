@@ -23,7 +23,7 @@ Plotly.d3.csv('./assets/education-events.csv', function (err, rows) {
 			participantsNo[i] +
 			'<br> Location: ' +
 			locations[i];
-		var size = participantsNo[i] / 3;
+		var size = participantsNo[i] / 2;
 		hoverTexts.push(hoverText);
 		sizes.push(size);
 	}
@@ -100,7 +100,6 @@ Plotly.d3.csv('./assets/education-events.csv', function (err, rows) {
 	var layout = {
 		title: 'MolSSI Events Map',
 		showlegend: false,
-		height: 700,
 		geo: {
 			domain: { x: [0, 0.5] },
 			scope: 'world',
