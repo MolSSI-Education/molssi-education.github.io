@@ -11,7 +11,8 @@ Plotly.d3.csv('./assets/education-events.csv', function (err, rows) {
 		locations = unpack(rows, 'Location (city, state)'),
 		cityLat = unpack(rows, 'lat'),
 		cityLon = unpack(rows, 'lon'),
-		hoverTexts = [];
+		hoverTexts = [],
+		sizes = [];
 
 	for (var i = 0; i < eventNames.length; i++) {
 		var hoverText =
@@ -22,8 +23,9 @@ Plotly.d3.csv('./assets/education-events.csv', function (err, rows) {
 			participantsNo[i] +
 			'<br> Location: ' +
 			locations[i];
-
+		var size = participantsNo[i] / 3;
 		hoverTexts.push(hoverText);
+		sizes.push(size);
 	}
 	console.log({ eventNames, eventYear, locations, hoverTexts });
 
@@ -56,7 +58,7 @@ Plotly.d3.csv('./assets/education-events.csv', function (err, rows) {
 			// 	tickvals: [2017, 2018, 2019, 2020, 2021],
 			// 	ticktext: ['2017', '2018', '2019', '2020', '2021'],
 			// },
-			size: participantsNo,
+			size: sizes,
 		},
 		xaxis: 'x',
 		yaxis: 'y',
