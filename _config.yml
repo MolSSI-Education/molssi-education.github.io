@@ -34,8 +34,14 @@ header_pages:
   - index.md
   - resources.md
   - events.md
+  - map.md
   - calendar.md
   - request.md
+
+social-links:
+  - github: MolSSI-Education
+  - twitter: MolSSI_NSF
+  - linkedin: molecular-sciences-software-institute
 
 social-links:
   - github: MolSSI-Education
