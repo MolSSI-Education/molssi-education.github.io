@@ -35,5 +35,5 @@ layout: default
     {%- endif -%}
   {% endfor %}
   </ul>
-<em>For past events, please visit <a href="{{site.baseurl}}/events-archive">here</a></em>
+<em>For past events, please see our <a href="{{site.baseurl}}/map">full list and map</a>, or see events which had a blog post <a href="{{site.baseurl}}/events-archive">here</a></em>
 </div>

@@ -62,6 +62,7 @@ button .tablink {
 	position: fixed;
 	top: 0;
 	left: 0;
+	z-index: 2;
 }
 
 .site-header {
@@ -144,12 +145,18 @@ button .tablink {
 }
 
 #eventMap {
-	position: relative;
-	top:50px;
-	height: 80vh;
+	position:absolute;
+	left: 0;
 	margin:auto;
+	margin-top:0;
+	margin-bottom: 0;
+  height: 70vh;
+  width: 100vw;
+	overflow: scroll;
+	background-color: #fdfdfd;
 }
 
-.modebar {
-	opacity: 0;
+footer {
+	z-index: 2;
+	background-color: #fdfdfd;
 }
