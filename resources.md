@@ -8,27 +8,31 @@ layout: default
 MolSSI offers 1-2 day workshops as well as online tutorial materials. Most tutorials are hosted on GitHub in the MolSSI Education GitHub organization. Workshops and materials here may still be under development. Outside contribution is welcomed and encouraged!
 
 <!-- Tab links -->
-<div class="tab">
+<div id="resources-nav" class="tab">
   <nav class="navbar navbar-expand-lg navbar-light bg-light tab resources">
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse h-100 p-0" id="navbarNav">
-    <ul class="navbar-nav">
-      <li class="nav-item" onclick="openCategory(event, 'Programming')", id="defaultOpen">
-        <button class="tablinks h-100">Programming</button>
-      </li>
-      <li class="nav-item" onclick="openCategory(event, 'software-development')">
-        <button class="tablinks h-100">Software Development</button>
-      </li>
-      <li class="nav-item" onclick="openCategory(event, 'molecular-modeling')">
-        <button class="tablinks h-100">Molecular Modeling</button>
-      </li>
-      <li class="nav-item" onclick="openCategory(event, 'external-resources')">
-        <button class="tablinks h-100">External Resources</button>
-      </li>
-    </ul>
-</nav>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse h-100 p-0 " id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item" onclick="openCategory(event, 'Programming')", id="defaultOpen">
+          <button class="tablinks h-100">Programming</button>
+        </li>
+        <li class="nav-item" onclick="openCategory(event, 'software-development')">
+          <button class="tablinks h-100">Software Development</button>
+        </li>
+        <li class="nav-item " onclick="openCategory(event, 'molecular-modeling')">
+          <button class="tablinks h-100">Molecular Modeling</button>
+        </li>
+        <li class="nav-item" onclick="openCategory(event, 'machine-learning')">
+          <button class="tablinks h-100">Machine Learning</button>
+        </li>
+        <li class="nav-item" onclick="openCategory(event, 'external-resources')">
+          <button class="tablinks h-100">External Resources</button>
+        </li>
+      </ul>
+    </div>
+  </nav>
 </div>
 
 <!-- Tab content -->
