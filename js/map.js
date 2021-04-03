@@ -93,15 +93,12 @@ Plotly.d3.csv('./assets/education-events.csv', function (err, rows) {
 		},
 		xaxis: 'x2',
 		yaxis: 'y2',
-		domain: { x: [0.55, 1], y: [0, 1] },
 	};
 	var data = [mapTrace, tableTrace];
 
 	var layout = {
-		title: 'MolSSI Events Map',
 		showlegend: false,
 		geo: {
-			domain: { x: [0, 0.5] },
 			scope: 'world',
 			projection: {
 				type: 'equirectangular',
@@ -116,5 +113,8 @@ Plotly.d3.csv('./assets/education-events.csv', function (err, rows) {
 		},
 	};
 
-	Plotly.newPlot('eventMap', data, layout);
+	var config = {responsive: true}
+
+	Plotly.newPlot('eventMap', [mapTrace], layout, config);
+	Plotly.newPlot('eventTable', [tableTrace], {}, config);
 });

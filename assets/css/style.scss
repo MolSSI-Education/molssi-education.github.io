@@ -144,14 +144,24 @@ button .tablink {
 	color: black;
 }
 
-#eventMap {
+#plotlyRow {
 	position:absolute;
 	left: 0;
 	margin:auto;
 	margin-top:0;
 	margin-bottom: 0;
-  height: 70vh;
-  width: 100vw;
+	height: 70vh;
+	width: 100vw;
+	overflow: scroll;
+	background-color: #fdfdfd;
+}
+
+#eventMap {
+	margin:0;
+	height: 70vh;
+	width: 100vw;
+	margin-top:0;
+	margin-bottom: 0;
 	overflow: scroll;
 	background-color: #fdfdfd;
 }
