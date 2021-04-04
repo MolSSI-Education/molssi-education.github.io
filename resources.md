@@ -10,9 +10,6 @@ MolSSI offers 1-2 day workshops as well as online tutorial materials. Most tutor
 <!-- Tab links -->
 <div id="resources-nav" class="tab">
   <nav class="navbar navbar-expand-lg navbar-light bg-light tab resources">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
     <div class="collapse navbar-collapse h-100 p-0 " id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item" onclick="openCategory(event, 'Programming')", id="defaultOpen">
