@@ -27,7 +27,6 @@ Plotly.d3.csv('./assets/education-events.csv', function (err, rows) {
 		hoverTexts.push(hoverText);
 		sizes.push(size);
 	}
-	console.log({ eventNames, eventYear, locations, hoverTexts });
 
 	var mapTrace = {
 		type: 'scattergeo',
@@ -113,7 +112,7 @@ Plotly.d3.csv('./assets/education-events.csv', function (err, rows) {
 		},
 	};
 
-	var config = {responsive: true}
+	var config = { responsive: true };
 
 	Plotly.newPlot('eventMap', [mapTrace], layout, config);
 	Plotly.newPlot('eventTable', [tableTrace], {}, config);
