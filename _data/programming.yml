@@ -20,6 +20,7 @@
 
 - title: Scientific Data Visualization Using Python
   link: python-visualization
+  youtube: https://www.youtube.com/watch?v=c3jvrSZhBek
   description: This workshop covers scientific data visualization using the Python programming language.
 
   topics: <li> Creating plots using matplotlib
