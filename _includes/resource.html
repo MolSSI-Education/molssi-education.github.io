@@ -35,4 +35,9 @@
   {%- if resource.full-link -%}
   <span>{% octicon book %}</span>  <a target="_blank" href="{{ resource.full-link }}">View Workshop Materials</a>
   {%- endif -%}
+
+  {%- if resource.youtube -%}
+  <span>| {%octicon device-camera-video %}</span> <a target="_blank" href={{resource.youtube}}> View Workshop Recording</a>
+  {%- endif -%}
+
 </div>

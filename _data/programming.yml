@@ -1,5 +1,6 @@
 - title: Python Data and Scripting Workshop
   link: python_scripting_cms
+  youtube: https://www.youtube.com/playlist?list=PLOTjazgLxvK1LLl_wtgUc3vATyyaopUxY
   description: The MolSSI Python Data and Scripting workshop is designed for students who are currently involved in, or planning to start computational chemistry research. This workshop is designed to help students develop practical programming skills that will benefit their undergraduate research, and will take students through introductory programming and scripting with Python to version control and sharing their code with others. NO prior programming experience is required.
   topics: <li> Basic Python syntax and control structures
     <li> Reading and writing files
