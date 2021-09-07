@@ -12,6 +12,16 @@
     <li> Version control with git
     <li> Sharing code on GitHub
 
+- title: Python Data and Scripting for Biochemists and Molecular Biologists
+  link: python-scripting-biochemistry
+  description: The Python Scripting for Biochemistry and Molecular Biology Workshop is designed for students and faculty who are interested in getting started with coding as part of their teaching and research. The workshop provides hands-on python coding experience using examples relevant to biochemists. It includes parsing PDB files, data analysis, linear regression, nonlinear regression, and plotting data. No prior programming experience is necessary.
+  topics: <li> Basic Python syntax and control structures
+    <li> Reading and writing files
+    <li> File manipulation and parsing
+    <li> Analyzing and graphing data
+    <li> Pandas dataframes
+    <li> Linear fitting.
+
 - title: Data Analysis using Python
   link: python-data-analysis
   description: The Python Data Analysis Tutorials are short stand-alone tutorials, which build on and expand the Python Scripting Workshop. These lessons include introductions to specific libraries including NumPy and pandas.
