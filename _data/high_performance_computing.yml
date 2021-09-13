@@ -1,0 +1,8 @@
+- title: Parallel Programming
+  link: parallel-programming
+  description: These lessons introduce basic parallelization techniques and best practices. There are several examples that cover the topic of distributed-memory parallelization using the Message Passing Interface (MPI) and shared-memory parallelization using OpenMP. Examples are provided both in C++ and in Python using the mpi4py wrapper. Both the MPI and OpenMP tutorials begin with simple “Hello World!” codes and culminate in the parallelization of a simple molecular dynamics code.
+  topics:
+
+- title: Fundamentals of Heterogeneous Parallel Programming with CUDA C/C++
+  link: gpu_programming_beginner
+  description: The Fundamentals of Heterogeneous Parallel Programming with CUDA C/C++ course overviews the basic principles of CUDA platform and focuses on the interrelation between various aspects of Graphics Processing Unit (GPU) architecture and software design. The course features numerous examples and exercises and is designed for the audience at the beginner level with minimum background in C and C++ programming, bash and command-line interface.
