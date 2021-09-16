@@ -36,7 +36,7 @@ MolSSI offers 1-2 day workshops as well as online tutorial materials. Most tutor
 </div>
 
 <!-- Tab content -->
-<div id="Programming" class="tabcontent">
+<div id="programming" class="tabcontent">
 {% for resource in site.data.programming %}
 {%- include resource.html -%}
 {% endfor %}
