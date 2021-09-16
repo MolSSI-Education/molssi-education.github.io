@@ -12,23 +12,23 @@ MolSSI offers 1-2 day workshops as well as online tutorial materials. Most tutor
   <nav class="navbar navbar-expand-lg navbar-light bg-light tab resources">
     <div class="collapse navbar-collapse h-100 p-0 " id="navbarNav">
       <ul class="navbar-nav">
-        <li class="nav-item" onclick="openCategory(event, 'Programming')", id="defaultOpen">
-          <button class="tablinks h-100">Programming</button>
+        <li>
+          <button id="tab-programming" class="tablinks h-100 nav-item">Programming</button>
         </li>
-        <li class="nav-item" onclick="openCategory(event, 'software-development')">
-          <button class="tablinks h-100">Software Development</button>
+        <li>
+          <button id="tab-software-development" class="tablinks h-100 nav-item">Software Development</button>
         </li>
-        <li class="nav-item" onclick="openCategory(event, 'machine-learning')">
-          <button class="tablinks h-100">Machine Learning</button>
+        <li>
+          <button id="tab-machine-learning" class="tablinks h-100 nav-item">Machine Learning</button>
         </li>
-        <li class="nav-item" onclick="openCategory(event, 'high-performance-computing')">
-          <button class="tablinks h-100">High Performance Computing</button>
+        <li>
+          <button id="tab-high-performance-computing" class="tablinks h-100 nav-item">High Performance Computing</button>
         </li>
-        <li class="nav-item " onclick="openCategory(event, 'molecular-modeling')">
-          <button class="tablinks h-100">Molecular Modeling</button>
+        <li>
+          <button id="tab-molecular-modeling" class="tablinks h-100 nav-item">Molecular Modeling</button>
         </li>
-        <li class="nav-item" onclick="openCategory(event, 'external-resources')">
-          <button class="tablinks h-100">External Resources</button>
+        <li>
+          <button id="tab-external-resources" class="tablinks h-100 nav-item">External Resources</button>
         </li>
       </ul>
     </div>
@@ -66,14 +66,9 @@ MolSSI offers 1-2 day workshops as well as online tutorial materials. Most tutor
 {% endfor %}
 </div>
 
-<div id='external-resources' class='tabcontent'>
+<div id="external-resources" class="tabcontent">
 Here are a number of educational resources that are external to the MolSSI, though many of these have been developed by MolSSI Software Scientists, MolSSI Associates, and other partners.
 {%  for resource in site.data.external_resources %}
 {%- include resource.html -%}
 {% endfor %}
 </div>
-
-<!-- Get the element with id="defaultOpen" and click on it after the whole page loaded-->
-<script>
-  document.getElementById('defaultOpen').click();
-</script>
