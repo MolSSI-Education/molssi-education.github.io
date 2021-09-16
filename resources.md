@@ -12,68 +12,23 @@ MolSSI offers 1-2 day workshops as well as online tutorial materials. Most tutor
   <nav class="navbar navbar-expand-lg navbar-light bg-light tab resources">
     <div class="collapse navbar-collapse h-100 p-0 " id="navbarNav">
       <ul class="navbar-nav">
-        <li class="nav-item" onclick="openCategory(event, 'Programming')", id="defaultOpen">
-          <button class="tablinks h-100">Programming</button>
+        {%- for tab in site.data.resources_tabs -%}
+        <li>
+            <button id="tab-{{ tab.title | slugify }}" class="tablinks h-100 nav-item">{{ tab.title }}</button>
         </li>
-        <li class="nav-item" onclick="openCategory(event, 'software-development')">
-          <button class="tablinks h-100">Software Development</button>
-        </li>
-        <li class="nav-item" onclick="openCategory(event, 'machine-learning')">
-          <button class="tablinks h-100">Machine Learning</button>
-        </li>
-        <li class="nav-item" onclick="openCategory(event, 'high-performance-computing')">
-          <button class="tablinks h-100">High Performance Computing</button>
-        </li>
-        <li class="nav-item " onclick="openCategory(event, 'molecular-modeling')">
-          <button class="tablinks h-100">Molecular Modeling</button>
-        </li>
-        <li class="nav-item" onclick="openCategory(event, 'external-resources')">
-          <button class="tablinks h-100">External Resources</button>
-        </li>
+        {%- endfor -%}
       </ul>
     </div>
   </nav>
 </div>
 
 <!-- Tab content -->
-<div id="Programming" class="tabcontent">
-{% for resource in site.data.programming %}
-{%- include resource.html -%}
-{% endfor %}
-</div>
-
-<div id="software-development" class="tabcontent">
-{%  for resource in site.data.software_development %}
-{%- include resource.html -%}
-{% endfor %}
-</div>
-
-<div id="molecular-modeling" class="tabcontent">
-{%  for resource in site.data.molecular_modeling %}
-{%- include resource.html -%}
-{% endfor %}
-</div>
-
-<div id="machine-learning" class="tabcontent">
-{% for resource in site.data.machine_learning %}
-{%- include resource.html -%}
-{% endfor %}
-</div>
-
-<div id="high-performance-computing" class="tabcontent">
-{% for resource in site.data.high_performance_computing %}
-{%- include resource.html -%}
-{% endfor %}
-</div>
-
-<div id='external-resources' class='tabcontent'>
-Here are a number of educational resources that are external to the MolSSI, though many of these have been developed by MolSSI Software Scientists, MolSSI Associates, and other partners.
-{%  for resource in site.data.external_resources %}
-{%- include resource.html -%}
-{% endfor %}
-</div>
-
-<!-- Get the element with id="defaultOpen" and click on it after the whole page loaded-->
-<script>
-  document.getElementById('defaultOpen').click();
-</script>
+{%- for item in site.data.resources_tabs %}
+  <div id="{{ item.title | slugify }}" class="tabcontent">
+    {%- assign tab_name = item.title | downcase | replace: " ", "_" %}
+    {%- if item.description -%}{{ item.description }}{%- endif -%}
+    {%- for resource in site.data.resources[tab_name] %}
+    {%- include resource.html -%}
+    {%- endfor %}
+  </div>
+{%-  endfor %}
