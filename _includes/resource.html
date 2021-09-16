@@ -1,20 +1,12 @@
 <div class="resource-content">
   <h2>
     {%- if resource.link -%}
-    <a
-      class="headerLink"
-      href="https://education.molssi.org/{{ resource.link }}"
-      target="_blank"
-      >{{ resource.title }}</a
-    >
+    <a class="headerLink" href="https://education.molssi.org/{{ resource.link }}" target="_blank">
+      {{ resource.title}}
+    </a>
     {%- endif -%}
-    {%- if resource.full-link -%}
-        <a
-      class="headerLink"
-      href="{{ resource.full-link }}"
-      target="_blank"
-      >{{ resource.title }}</a
-    >
+    {%- if resource.full_link -%}
+    <a class="headerLink" href="{{ resource.full_link }}" target="_blank">{{ resource.title }}</a>
     {%- endif -%}
   </h2>
 
@@ -28,16 +20,19 @@
   {%- endif -%}
 
   {%- if resource.link -%}
-  <span>{% octicon book %}</span>  <a target="_blank" href="https://education.molssi.org/{{ resource.link }}">View Workshop Materials</a> |
-  <span>{% octicon mark-github %}</span>  <a target="_blank" href="https://github.com/MolSSI-Education/{{ resource.link }}">View GitHub Repository</a>
+  <span>{% octicon book %}</span>
+  <a target="_blank" href="https://education.molssi.org/{{ resource.link }}">View Workshop Materials</a> |
+  <span>{% octicon mark-github %}</span>
+  <a target="_blank" href="https://github.com/MolSSI-Education/{{ resource.link }}">View GitHub Repository</a>
   {%- endif -%}
 
-  {%- if resource.full-link -%}
-  <span>{% octicon book %}</span>  <a target="_blank" href="{{ resource.full-link }}">View Workshop Materials</a>
+  {%- if resource.full_link -%}
+  <span>{% octicon book %}</span> <a target="_blank" href="{{ resource.full_link }}">View Workshop Materials</a>
   {%- endif -%}
 
   {%- if resource.youtube -%}
-  <span>| {%octicon device-camera-video %}</span> <a target="_blank" href={{resource.youtube}}> View Workshop Recording</a>
+  <span>| {% octicon device-camera-video %}</span> <a target="_blank" href={{ resource.youtube }}> View Workshop
+    Recording</a>
   {%- endif -%}
 
 </div>

@@ -1,5 +1,5 @@
 - title: Q-Chem for Teaching
-  full-link: http://www.q-chem.com/InstructionalMatls.html
+  full_link: http://www.q-chem.com/InstructionalMatls.html
   description: "Instructions how to use Q-Chem for teaching via the IQmol interface, as well as a selection of computational assignments that can be given to students as homework or in-class exercises. The list of labs includes 10 labs covering different types of quantum-chemical calculations. We hope that this list will continue to grow and would like to encourage the community to submit new computational labs for sharing.
   <br>
   <br>
@@ -7,14 +7,14 @@
 
 
 - title: Psi4 Education
-  full-link: https://admiring-tesla-08529a.netlify.app/posts/psi4education/
+  full_link: https://admiring-tesla-08529a.netlify.app/posts/psi4education/
   description: Computational Labs Using Free Software Computational chemistry is an increasingly important part of modern research, and yet it is often not part of the typical undergraduate or graduate curriculum. Fortunately, the availability of free software like PSI4 and WebMO lowers the barrier to introducing computational chemistry laboratory modules. The labs below were created using only free software and are available for use in your classes.
 
 - title: Deep Learning for Molecules and Materials
-  full-link: https://whitead.github.io/dmol-book/intro.html
+  full_link: https://whitead.github.io/dmol-book/intro.html
   description: "This textbooks covers deep learning for molecules and materials with code examples and theory. It starts from ML and works up to modern methods in deep learning"
 
 
 - title: ChemCompute
-  full-link: https://chemcompute.org/
+  full_link: https://chemcompute.org/
   description: "Computational chemistry software for undergraduate teaching and research. Instructors can request allocations and access a range of computational chemistry software for their classes"
