@@ -11,7 +11,7 @@ layout: default
 
 # Education at MolSSI
 
-Education of students, post-docs, and faculty on programming and Best Practices in Software Development is a large part of MolSSI's mission. Our education program consists of our cohorts of [Software Fellows](https://molssi.org/molssi-software-fellows/), [online training materials](https://molssi-education.github.io/resources.html), and online and in-person workshops at various locations across the U.S. each year..
+Education of students, post-docs, and faculty on programming and Best Practices in Software Development is a large part of MolSSI's mission. Our education program consists of our cohorts of [Software Fellows](https://molssi.org/molssi-software-fellows/), [online training materials](https://molssi-education.github.io/resources.html), and online and in-person workshops at various locations across the U.S. each year.
 
 MolSSI’s education techniques and practices are modeled after [The Carpentries](https://carpentries.org/) style to teaching novice software best practices. This approach teaches subjects that not only increase a student’s scientific capability and efficiency, but also his/her future marketability in both scientific and non-scientific fields. The MolSSI promotes SWC-style lessons by combining open-classroom and cognitive-map learning. We engage large portions of the CMS community (and beyond) through demographically and geographically diverse workshops aimed at both novice and intermediate learners.
 
