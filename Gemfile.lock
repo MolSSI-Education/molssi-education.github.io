@@ -262,6 +262,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  commonmarker (>= 0.23.4)
   github-pages
   jekyll-feed (~> 0.6)
   jekyll-octicons
