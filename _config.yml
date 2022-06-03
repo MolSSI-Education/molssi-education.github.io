@@ -25,6 +25,8 @@ github_username:  molssi-education
 
 # Build settings
 markdown: CommonMarkGhPages
+commonmark:
+  options: ["UNSAFE"]
 theme: minima
 plugins:
   - jekyll-feed
