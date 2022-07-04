@@ -6,7 +6,7 @@ layout: default
 <div class="home">
   <h1 class="page-heading">Past Events</h1>
 
-{% assign sorted_events = (site.events | sort: 'expires') %}
+{% assign sorted_events = (site.events | sort: 'expires' | reverse) %}
 
   <ul class="post-list">
   {% for event in sorted_events %}
@@ -23,5 +23,5 @@ layout: default
     {%- endif -%}
   {% endfor %}
   </ul>
-<em>For upcoming event, please visit <a href="{{site.baseurl}}/events">here</a></em>
+<em>For upcoming events, please visit <a href="{{site.baseurl}}/events">here</a></em>
 </div>
