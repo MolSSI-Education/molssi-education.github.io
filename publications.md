@@ -13,7 +13,7 @@ layout: default
 <ol>
 
 {%- for item in site.data.publications.books -%}
-    <li> <a href="{{item.link}}">{{ item.title }}</a>  
+    <li> <a href="{{item.link}}">{{ item.title }}</a>;  
     {{ item.publisher }}  
     <blockquote>
         {{ item.description }} 
@@ -25,7 +25,7 @@ layout: default
 ### Journal Articles
 <ol>
 {%- for item in sorted_pubs -%}
-    <li> <a href="{{item.link}}">{{ item.title }}</a>   
+    <li> <a href="{{item.link}}">{{ item.title }}</a>;   
     <i>{{ item.journal }}</i>,
     {{ item.authors }},
     {{ item.publication_date }},
