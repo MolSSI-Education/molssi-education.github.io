@@ -10,7 +10,7 @@ repeated: false
 <center><img src ="../../../../images/event_images/bcce-2022-resize.png">
 <figcaption> BCCE 2022 </figcaption><br><br></center>
 
-MolSSI Education will host workshop at a symposium at the [2022 Biennial Conference on Chemical Education](https://www.bcce2022.org/). 
+MolSSI Education will host a workshop and a symposium at the [2022 Biennial Conference on Chemical Education](https://www.bcce2022.org/). 
 
 The workshop, "Teaching Python Scripting for Computational Molecular Sciences", will be on Monday, August 1, and will inform educators how to teach the MolSSI Python Data and Scripting curriculum. Educators will also learn how to build on MolSSI Education resources in their classes. 
 
