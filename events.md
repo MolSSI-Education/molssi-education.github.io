@@ -6,7 +6,7 @@ layout: default
 <div class="home">
   <h1 class="page-heading">Education Events</h1>
 
-   {% assign sorted_events = (site.events | sort: 'expires' | reverse) %}
+   {% assign sorted_events = (site.events | sort: 'expires') %}
 
   <ul class="post-list">
   {% for event in sorted_events %}
