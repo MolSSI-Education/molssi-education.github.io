@@ -26,6 +26,7 @@
 
 - title: Python Type Hints, Dataclasses, and Pydantic
   link: type-hints-pydantic-tutorial
+  youtube: https://www.youtube.com/watch?v=zh7Qpkto6n0
   description: Do more with structured and named data than putting everything into a Dictionary. Learn about Python type hints for arguments and variables to tell users what to expect. Structure data into Dataclasses for functional named data handlers. Leverage validation and the powerful third party tool pydantic to handle complex schema and automatic validation.
   topics: <li> Type hints in native Python
     <li> Python Dataclasses for structured data organization
