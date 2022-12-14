@@ -35,11 +35,9 @@ plugins:
 header_pages:
   - index.md
   - resources.md
-  - events.md
   - map.md
   - calendar.md
   - publications.md
-  - request.md
 
 social-links:
   - github: MolSSI-Education

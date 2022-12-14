@@ -1,5 +1,5 @@
 ---
-title: Resources
+title: Tutorials and Workshops
 layout: default
 ---
 
