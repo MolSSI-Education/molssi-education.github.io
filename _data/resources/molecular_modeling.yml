@@ -8,6 +8,7 @@
 
 - title: Molecular Mechanics Tools
   link: mm-tools
+  youtube: https://www.youtube.com/playlist?list=PLOTjazgLxvK0lK0susX_EHqPnEd6Rh0o9
   description: The mm-tools workshop introduces molecular dynamics simulations using the software OpenMM, and analysis of simulation results using MDTraj. The theoretical background of MD simulations are discussed, and students simulate and analyze alkane and a simple protein system. This workshop also covers putting code on GitHub and includes an exercise where students implement a new software feature and submit a pull request.
 
 - title: ab initio MD
