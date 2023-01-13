@@ -38,6 +38,21 @@ button .tablink {
 	padding-bottom: 10px;
 }
 
+h2.no-underline {
+	text-align: center;
+	text-decoration: none;
+}
+
+.feature-card {
+	background: rgb(237,28,36);
+	background: radial-gradient(circle, rgba(237,28,36,1) 0%, rgba(237,28,36,0.6911376611191351) 100%);
+}
+
+
+.feature-button {
+	background: #393536;
+}
+
 #particles-js {
 	display: none;
 	position: absolute;

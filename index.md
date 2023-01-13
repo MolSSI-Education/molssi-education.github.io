@@ -13,12 +13,44 @@ layout: default
 
 Education of students, post-docs, and faculty on programming and Best Practices in Software Development is a large part of MolSSI's mission. Our education program consists of our cohorts of [Software Fellows](https://molssi.org/molssi-software-fellows/), [online training materials](https://molssi-education.github.io/resources.html), and online and in-person workshops at various locations across the U.S. each year.
 
-MolSSI’s education techniques and practices are modeled after [The Carpentries](https://carpentries.org/) style to teaching novice software best practices. This approach teaches subjects that not only increase a student’s scientific capability and efficiency, but also his/her future marketability in both scientific and non-scientific fields. The MolSSI promotes SWC-style lessons by combining open-classroom and cognitive-map learning. We engage large portions of the CMS community (and beyond) through demographically and geographically diverse workshops aimed at both novice and intermediate learners.
+MolSSI’s education techniques and practices are modeled after [The Carpentries](https://carpentries.org/) style to teaching novice software best practices. We engage large portions of the CMS community (and beyond) through demographically and geographically diverse workshops aimed at both novice and intermediate learners.
 
-MolSSI offers a number of education workshops for students and post docs in the computational molecular sciences. These workshops cover a range of material, from basic scripting to writing programs which use MolSSI Best Practices. See our [Resources](https://molssi-education.github.io/resources.html) page for a more complete list of tutorials, or the [calendar](https://molssi-education.github.io/calendar.html) for upcoming educational events.
+<h2 class="no-underline pt-2"> Get Started with MolSSI Education Tutorials </h2>
+
+<div class="row">
+
+<div class="col-md-12 col-lg-4">
+  <div class="container h-100 pb-2">
+  <div class="card-body feature-card text-white text-center h-100 align-middle">
+      <h5 class="card-title">Python Data and Scripting for Computational Molecular Science</h5>
+      <p class="card-text">Learn how to use Python with examples from Computational Molecular Science. Appropriate for learners with no programming experience.</p>
+      <a href="https://education.molssi.org/python_scripting_cms" target="_blank" class="btn feature-button text-white">Start Learning</a>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-12 col-lg-4">
+  <div class="container h-100 pb-2">
+  <div class="card-body feature-card text-white text-center h-100">
+        <h5 class="card-title">Software Development Best Practices Tutorial</h5>
+        <p class="card-text">Set up your development environment and create a package with software developent best practices using a hands-on Python example.</p>
+        <a href="https://education.molssi.org/python-package-best-practices" target="_blank" class="btn feature-button text-white">Start Learning</a>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-12 col-lg-4">
+  <div class="container h-100 pb-2">
+  <div class="card-body feature-card text-white text-center h-100">
+      <h5 class="card-title">MolSSI Education Tutorials</h5>
+      <p class="card-text">See tutorial from the MolSSI on programming, software development, and molecular modeling.</p>
+      <a href="/resources.html#programming" target="_blank" class="btn feature-button text-white">See the full list of tutorials.</a>
+  </div>
+</div>
+
+</div>
 
 <script>
   particlesJS.load('particles-js', 'assets/particles.json', function() {
-  console.log('callback - particles.js config loaded');
 });
 </script>
