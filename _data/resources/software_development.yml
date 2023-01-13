@@ -1,6 +1,6 @@
 - title: Best Practices Workshop
   link: python-package-best-practices
-  description: Our best practices workshops introduce and promote <a href="https://molssi.org/education/best-practices/">MolSSI best practices</a> to workshop attendees. This workshop is designed for graduate students, post docs, or advanced undergraduate students. In this course, students create a Python package using best practices and the <a href="https://github.com/MolSSI/cookiecutter-cms">MolSSI CookieCutter</a>, and host this project on GitHub.
+  description: Our best practices workshops introduce and promote <a href="https://molssi.org/molssis-best-practices/">MolSSI best practices</a> to workshop attendees. This workshop is designed for graduate students, post docs, or advanced undergraduate students. In this course, students create a Python package using best practices and the <a href="https://github.com/MolSSI/cookiecutter-cms">MolSSI CookieCutter</a>, and host this project on GitHub. Although this workshop is taught using a Python example, the concepts are broadly applicable to software projects in other languages.
   topics: <li> Conda and Python environments
     <li> Structuring a Python project using the MolSSI CookieCutter.
     <li> Version control using git
