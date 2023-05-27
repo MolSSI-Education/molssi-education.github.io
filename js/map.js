@@ -1,67 +1,89 @@
 Plotly.d3.csv('./assets/education-events.csv', function (err, rows) {
-	function unpack(rows, key) {
-		return rows.map(function (row) {
-			return row[key];
-		});
-	}
+    function unpack(rows, key) {
+        return rows.map(function (row) {
+            return row[key];
+        });
+    }
 
-	var eventNames = unpack(rows, 'Event Name'),
-		participantsNo = unpack(rows, 'Number of participants'),
-		eventYear = unpack(rows, 'event year'),
-		locations = unpack(rows, 'Location (city, state)'),
-		cityLat = unpack(rows, 'lat'),
-		cityLon = unpack(rows, 'lon'),
-		hoverTexts = [],
-		sizes = [];
+    var eventNames = unpack(rows, 'Event Name'),
+        participantsNo = unpack(rows, 'Number of participants'),
+        eventYear = unpack(rows, 'event year'),
+        locations = unpack(rows, 'Location (city, state)'),
+        cityLat = unpack(rows, 'lat'),
+        cityLon = unpack(rows, 'lon');
 
-	for (var i = 0; i < eventNames.length; i++) {
-		var hoverText =
-			eventNames[i] +
-			'<br> Event Year: ' +
-			eventYear[i] +
-			'<br> Number of Participants: ' +
-			participantsNo[i] +
-			'<br> Location: ' +
-			locations[i];
-		var size = participantsNo[i] / 2;
-		hoverTexts.push(hoverText);
-		sizes.push(size);
-	}
+    var eventYears = [...new Set(eventYear)];
+    var colorscale = [
+        '#393536',
+        '#613032',
+        '#812c2f',
+        '#a0272c',
+        '#c52228',
+        '#ed1c24'
+    ];
 
-	var mapTrace = {
-		type: 'scattergeo',
-		mode: 'markers',
-		lat: cityLat,
-		lon: cityLon,
-		hoverinfo: 'text',
-		hovertext: hoverTexts,
-		locationmode: 'world',
-		geo: 'geo',
-		marker: {
-			color: eventYear,
-			colorscale: [
-				[0, '#393536'],
-				[0.2, '#393536'],
-				[0.2, '#613032'],
-				[0.4, '#613032'],
-				[0.4, '#812c2f'],
-				[0.6, '#812c2f'],
-				[0.6, '#a0272c'],
-				[0.8, '#a0272c'],
-				[0.8, '#c52228'],
-				[1.0, '#c52228'],
-				[1.0, '#ed1c24'],
-			],
-			// colorbar: {
-			// 	tickmode: 'array',
-			// 	tickvals: [2017, 2018, 2019, 2020, 2021],
-			// 	ticktext: ['2017', '2018', '2019', '2020', '2021'],
-			// },
-			size: sizes,
-		},
-		xaxis: 'x',
-		yaxis: 'y',
-	};
+    var traces = eventYears.flatMap((year, index) => {
+        var filteredRows = rows.filter(row => row['event year'] === year);
+        var eventNames = unpack(filteredRows, 'Event Name'),
+            participantsNo = unpack(filteredRows, 'Number of participants'),
+            locations = unpack(filteredRows, 'Location (city, state)'),
+            cityLat = unpack(filteredRows, 'lat'),
+            cityLon = unpack(filteredRows, 'lon'),
+            sizes = participantsNo.map(p => p / 2),
+            hoverTexts = [];
+
+        for (var i = 0; i < eventNames.length; i++) {
+            var hoverText =
+                eventNames[i] +
+                '<br> Event Year: ' +
+                eventYear[i] +
+                '<br> Number of Participants: ' +
+                participantsNo[i] +
+                '<br> Location: ' +
+                locations[i];
+            hoverTexts.push(hoverText);
+        }
+
+        return [
+            {
+                // Actual data trace
+                type: 'scattergeo',
+                mode: 'markers',
+                lat: cityLat,
+                lon: cityLon,
+                hoverinfo: 'text',
+                hovertext: hoverTexts,
+                showlegend: false,
+                geo: 'geo',
+                legendgroup: 'year' + year,
+                marker: {
+                    color: colorscale[index % colorscale.length],
+                    size: sizes,
+                },
+                xaxis: 'x',
+                yaxis: 'y',
+            },
+            {
+                // Legend trace
+                type: 'scattergeo',
+                mode: 'markers',
+                lat: [90], // latitude off the visible area
+                lon: [0],
+                name: year.toString(),
+                showlegend: true,
+                legendgroup: 'year' + year,
+                geo: 'geo',
+                marker: {
+                    color: colorscale[index % colorscale.length],
+                    size: 10, // constant size for legend
+                },
+                xaxis: 'x',
+                yaxis: 'y',
+            },
+        ];
+    });
+
+
 	var tableContent = [
 		eventNames.reverse(),
 		eventYear.reverse(),
@@ -93,14 +115,13 @@ Plotly.d3.csv('./assets/education-events.csv', function (err, rows) {
 		xaxis: 'x2',
 		yaxis: 'y2',
 	};
-	var data = [mapTrace, tableTrace];
 
 	var layout = {
-		showlegend: false,
+		showlegend: true,
 		geo: {
-			scope: 'world',
+			scope: 'usa',
 			projection: {
-				type: 'equirectangular',
+				type: 'albers usa',
 			},
 			showland: true,
 			landcolor: 'rgb(217, 217, 217)',
@@ -114,6 +135,7 @@ Plotly.d3.csv('./assets/education-events.csv', function (err, rows) {
 
 	var config = { responsive: true };
 
-	Plotly.newPlot('eventMap', [mapTrace], layout, config);
+	Plotly.newPlot('eventMap', traces, layout, config);
 	Plotly.newPlot('eventTable', [tableTrace], {}, config);
 });
+

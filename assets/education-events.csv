@@ -45,7 +45,7 @@
 43,43,"Python Data and Scripting for Biochemists and Molecular Biologists",Webinar,Online,MolSSI,07/07/2021,07/14/2021,36,,,2021
 44,44,Tapia Center for Equity and Excellence - Computational Chemistry Program for Undergraduates,Summer School,"Houston, TX","Rice University, Richard Tapia Center",07/19/2021,07/23/2021,21,29.7604267,-95.3698028,2021
 45,45,UC Berkeley MSSE Bootcamp, Webinar, Online, UC Berkeley MSSE, 08/09/2021, 08/20/2021,6,,,2021
-46,46,SERMACS Python Visualization Workshop, Workshop,"Birmingham, Al", Southeastern Regional Meeting of the American Chemical Society,11/10/2021,11/10/2021, 19, 33.5186, -86.8104, 2021
+46,46,SERMACS Python Visualization Workshop, Workshop,"Birmingham, Al", Southeastern Regional Meeting of the American Chemical Society,11/10/2021,11/10/2021, 19, 33.5186, -86.8104,2021
 47,47,NVIDIA DLI Fundamentals of Deep Learning, Webinar, Online, NVIDIA,,,15,,,2021
 48,48,NVIDIA DLI Fundamentals of Accelerated Computing with CUDA C/C++, Webinar, Online, NVIDIA,,,11,,,2021
 49,49,NVIDIA DLI Fundamentals of Deep Learning, Webinar, Online, NVIDIA,,,37,,,2022
@@ -54,7 +54,7 @@
 52,52,Python Data and Scripting (hosted with nanoHUB for Dillard University), Webinar Series, Online, nanoHUB,,,40,,,2022
 53,53,Python Visualization, Webinar, Online, ACS COMP,,,17,,,2022
 53,53,NVIDIA DLI Scaling CUDA Applications to Multiple Nodes, Webinar, Online, NVIDIA,,,27,,,2022
-54,54,Best Practices Workshop, TheoChem Group, Webinar Series, Online, TheoChem Group,,,20,,,2022
+54,54,Best Practices Workshop!,Webinar Series, Online,TheoChem Group,,,20,,,2022
 55,55,NVIDIA DLI Fundamentals of Deep Learning, Webinar, Online, NVIDIA DLI,,,25,,,2022
 56,56,Tapia Center for Equity and Excellence - Computational Chemistry Program for Undergraduates,Summer School,"Houston, TX","Rice University, Richard Tapia Center",06/13/2022,06/17/2022,23,29.7604267,-95.3698028,2022
 57,57,MSF Bootcamp,MSF Bootcamp,"Blacksburg, VA",MolSSI,07/25/2022,07/29/2022,10,37.2295733,-80.4139393,2022
@@ -64,3 +64,11 @@
 61,61,Best Practices workshop, Webinar, Online, Stanford University,,,17,,,2022
 62,62,Fundamentals of Data-Parallel C++, Webinar, Online, Intel,,,10,,,2022
 63,63,Python in Chemistry - Seminar and Workshop,Workshop,"Emory, Va","Emory and Henry College",10/21/2022,10/21/2022,15,36.7738,-81.8349,2022
+64,64,Cal State LA - Partnerships for Research and Education in Chemistry Workshop,Workshop,"Los Angeles, CA","California State University, Los Angeles",01/03/2023,01/06/2023,29,34.0522,-118.2437,2023
+65,65,Enhancing Science Courses by Integrating Python (ESCIP) Workshop,Workshop,"Santa Clara, CA", "Santa Clara University",01/20/2023,01/21/2023,36,37.3541,-121.9552,2023
+66,66,NVIDIA Fundamentals of Deep Learning,Workshop,"Indianapolis, In","American Chemical Society Meeting",03/25/2023,03/25/2023,14,39.7684,-86.1581,2023
+67,67,Python for Data Science in Chemistry,Workshop,"Indianapolis, In","American Chemical Society Meeting",03/25/2023,03/25/2023,30,39.7684,-86.1581,2023
+68,68,Python Scripting Crash Course with the Institute of Quantitative Biomedicine,Workshop,Online,"Institute for Quantitative Biomedicine",04/20/2023,04/20/2023,120,,,2023
+69,69,Enhancing Science Courses by Integrating Python  - Python Data and Scripting Workshop,Workshop,"New York, NY","Enhancing Science Courses by Integrating Python", 04/28/2023,04/28/2023,20,40.7128,-74.0060,2023
+70,70,Python Data and Scripting Workshop,Workshop,"Columbia, SC","Southeastern Theoretical Chemistry Association Conference", 05/11/2023,05/11/2023,20,34.0007,-81.0348,2023
+71,71,Basics of OpenMP GPU Offload,Workshop,Online,"Institute for Quantitative Biomedicine",05/12/2023,05/12/2023,65,,,2023
