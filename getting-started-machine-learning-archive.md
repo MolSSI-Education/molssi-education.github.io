@@ -4,6 +4,8 @@ layout: default
 ---
 # Getting Started in Machine Learning
 
+**This page is no longer maintained.**
+
 1. Build the breadth of ML knowledge by taking a FULL course in ML, ideally a graduate level at STAT/MATH/CS departments. If not available, then take a complete online course (as described in this guide).
 2. Never reply solely on notebooks or online tutorials to learn the basics to avoid the common knowledge gaps. Think of a researcher with zero statistical knowledge trying to learn just from tutorials, surely their published analysis will have serious flaws.
 
