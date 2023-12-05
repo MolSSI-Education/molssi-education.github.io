@@ -7,7 +7,7 @@ layout: default
 **This page is no longer maintained.**
 
 1. Build the breadth of ML knowledge by taking a FULL course in ML, ideally a graduate level at STAT/MATH/CS departments. If not available, then take a complete online course (as described in this guide).
-2. Never reply solely on notebooks or online tutorials to learn the basics to avoid the common knowledge gaps. Think of a researcher with zero statistical knowledge trying to learn just from tutorials, surely their published analysis will have serious flaws.
+2. Never rely solely on notebooks or online tutorials to learn the basics to avoid the common knowledge gaps. Think of a researcher with zero statistical knowledge trying to learn just from tutorials, surely their published analysis will have serious flaws.
 
 ### Recommended Book:
 
@@ -33,14 +33,14 @@ For this section, you can take a Machine learning or data science university cou
     - Viewed by more than 8M students, 2.7M enrolled in the new system
     - Theory, language-independent in general (but examples in Octave, a Matlab-like language)
 
-  - If you prefer Textbooks, the free book: [An Introduction to Statistical Learning](http://faculty.marshall.usc.edu/gareth-james/ISL/)
+  - If you prefer Textbooks, the free book: [An Introduction to Statistical Learning](https://www.statlearning.com/)
 
-  2. [Machine Learning A-Z™: Hands-On Python & R In Data Science](https://www.udemy.com/course/machinelearning/)
+  1. [Machine Learning A-Z™: Hands-On Python & R In Data Science](https://www.udemy.com/course/machinelearning/)
   - Udemy, ~$20
   - 500k+ students took the course (4.5 stars rating)
   - 41 hrs, hands-on projects
 
-  3. Theory and practical
+  1. Theory and practical
   [Python for Data Science and Machine Learning Bootcamp](https://www.udemy.com/course/python-for-data-science-and-machine-learning-bootcamp/)
   - Udemy, ~$20
   - 21 hrs
