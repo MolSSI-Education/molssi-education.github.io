@@ -24,23 +24,23 @@ Plotly.d3.csv('./assets/education-events.csv', function (err, rows) {
 
     var traces = eventYears.flatMap((year, index) => {
         var filteredRows = rows.filter(row => row['event year'] === year);
-        var eventNames = unpack(filteredRows, 'Event Name'),
-            participantsNo = unpack(filteredRows, 'Number of participants'),
-            locations = unpack(filteredRows, 'Location (city, state)'),
-            cityLat = unpack(filteredRows, 'lat'),
-            cityLon = unpack(filteredRows, 'lon'),
-            sizes = participantsNo.map(p => p / 2),
+        var filteredEventNames = unpack(filteredRows, 'Event Name'),
+            filteredParticipantsNo = unpack(filteredRows, 'Number of participants'),
+            filteredLocations = unpack(filteredRows, 'Location (city, state)'),
+            filteredCityLat = unpack(filteredRows, 'lat'),
+            filteredCityLon = unpack(filteredRows, 'lon'),
+            sizes = filteredParticipantsNo.map(p => p / 2),
             hoverTexts = [];
 
-        for (var i = 0; i < eventNames.length; i++) {
+        for (var i = 0; i < filteredEventNames.length; i++) {
             var hoverText =
-                eventNames[i] +
+                filteredEventNames[i] +
                 '<br> Event Year: ' +
-                eventYear[i] +
+                year +  // use the year from the loop
                 '<br> Number of Participants: ' +
-                participantsNo[i] +
+                filteredParticipantsNo[i] +
                 '<br> Location: ' +
-                locations[i];
+                filteredLocations[i];
             hoverTexts.push(hoverText);
         }
 
@@ -49,8 +49,8 @@ Plotly.d3.csv('./assets/education-events.csv', function (err, rows) {
                 // Actual data trace
                 type: 'scattergeo',
                 mode: 'markers',
-                lat: cityLat,
-                lon: cityLon,
+                lat: filteredCityLat,
+                lon: filteredCityLon,
                 hoverinfo: 'text',
                 hovertext: hoverTexts,
                 showlegend: false,
@@ -83,59 +83,57 @@ Plotly.d3.csv('./assets/education-events.csv', function (err, rows) {
         ];
     });
 
+    var tableContent = [
+        eventNames.reverse(),
+        eventYear.reverse(),
+        locations.reverse(),
+        participantsNo.reverse(),
+    ];
 
-	var tableContent = [
-		eventNames.reverse(),
-		eventYear.reverse(),
-		locations.reverse(),
-		participantsNo.reverse(),
-	];
+    var tableTrace = {
+        type: 'table',
+        columnwidth: [30, 10, 25, 30],
+        header: {
+            values: [
+                ['<br>Event Name</br>'],
+                ['<br>Year</br>'],
+                ['<br>Location</br>'],
+                ['<br>No. of Participants</br>'],
+            ],
+            align: 'center',
+            line: { width: 1, color: 'black' },
+            fill: { color: 'grey' },
+            font: { family: 'Arial', size: 12, color: 'white' },
+        },
+        cells: {
+            values: tableContent,
+            align: ['left', 'center'],
+            line: { color: 'black', width: 1 },
+            font: { family: 'Arial', size: 12, color: ['black'] },
+        },
+        xaxis: 'x2',
+        yaxis: 'y2',
+    };
 
-	var tableTrace = {
-		type: 'table',
-		columnwidth: [30, 10, 25, 30],
-		header: {
-			values: [
-				['<br>Event Name</br>'],
-				['<br>Year</br>'],
-				['<br>Location</br>'],
-				['<br>No. of Participants</br>'],
-			],
-			align: 'center',
-			line: { width: 1, color: 'black' },
-			fill: { color: 'grey' },
-			font: { family: 'Arial', size: 12, color: 'white' },
-		},
-		cells: {
-			values: tableContent,
-			align: ['left', 'center'],
-			line: { color: 'black', width: 1 },
-			font: { family: 'Arial', size: 12, color: ['black'] },
-		},
-		xaxis: 'x2',
-		yaxis: 'y2',
-	};
+    var layout = {
+        showlegend: true,
+        geo: {
+            scope: 'usa',
+            projection: {
+                type: 'albers usa',
+            },
+            showland: true,
+            landcolor: 'rgb(217, 217, 217)',
+            showcountries: true,
+            showsubunits: true,
+            subunitwidth: 2,
+            subunitcolor: 'rgb(255,255,255)',
+            countrycolor: 'rgb(255,255,255)',
+        },
+    };
 
-	var layout = {
-		showlegend: true,
-		geo: {
-			scope: 'usa',
-			projection: {
-				type: 'albers usa',
-			},
-			showland: true,
-			landcolor: 'rgb(217, 217, 217)',
-			showcountries: true,
-			showsubunits: true,
-			subunitwidth: 2,
-			subunitcolor: 'rgb(255,255,255)',
-			countrycolor: 'rgb(255,255,255)',
-		},
-	};
+    var config = { responsive: true };
 
-	var config = { responsive: true };
-
-	Plotly.newPlot('eventMap', traces, layout, config);
-	Plotly.newPlot('eventTable', [tableTrace], {}, config);
+    Plotly.newPlot('eventMap', traces, layout, config);
+    Plotly.newPlot('eventTable', [tableTrace], {}, config);
 });
-

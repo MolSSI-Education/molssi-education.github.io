@@ -54,7 +54,7 @@
 52,52,Python Data and Scripting (hosted with nanoHUB for Dillard University), Webinar Series, Online, nanoHUB,,,40,,,2022
 53,53,Python Visualization, Webinar, Online, ACS COMP,,,17,,,2022
 53,53,NVIDIA DLI Scaling CUDA Applications to Multiple Nodes, Webinar, Online, NVIDIA,,,27,,,2022
-54,54,Best Practices Workshop!,Webinar Series, Online,TheoChem Group,,,20,,,2022
+54,54,Best Practices Workshop,Webinar Series, Online,TheoChem Group,,,20,,,2022
 55,55,NVIDIA DLI Fundamentals of Deep Learning, Webinar, Online, NVIDIA DLI,,,25,,,2022
 56,56,Tapia Center for Equity and Excellence - Computational Chemistry Program for Undergraduates,Summer School,"Houston, TX","Rice University, Richard Tapia Center",06/13/2022,06/17/2022,23,29.7604267,-95.3698028,2022
 57,57,MSF Bootcamp,MSF Bootcamp,"Blacksburg, VA",MolSSI,07/25/2022,07/29/2022,10,37.2295733,-80.4139393,2022
@@ -73,4 +73,19 @@
 70,70,Python Data and Scripting Workshop,Workshop,"Columbia, SC","Southeastern Theoretical Chemistry Association Conference", 05/11/2023,05/11/2023,20,34.0007,-81.0348,2023
 71,71,Basics of OpenMP GPU Offload,Workshop,Online,"Institute for Quantitative Biomedicine",05/12/2023,05/12/2023,65,,,2023
 72,72,Tapia Center for Equity and Excellence - Computational Chemistry Program for Undergraduates,Summer School,"Houston, TX","Rice University, Richard Tapia Center",06/19/2022,06/23/2022,20,29.7604267,-95.3698028,2023
-73,73,Cal State LA PREC Visit,"Blacksburg, VA",MolSSI,07/10/2023,07/10/2023,8,37.2295733,-80.4139393,2023
+73,73,Cal State LA PREC Visit,Workshop,"Blacksburg, VA",MolSSI,07/10/2023,07/10/2023,8,37.2295733,-80.4139393,2023
+74,74,MolSSI Software Fellow Bootcamp,MSF Bootcamp,"Blacksburg, VA",MolSSI,07/17/2023,07/21/2023,10,37.2295733,-80.4139393,2023
+75,75,MSSE Bootcamp,Webinar,"Online",UC Berkeley,07/31/2023,08/11/2023,48,,,2023
+76,76,Python for Data Science in Chemistry,Workshop,"San Francisco, CA", "American Chemical Society Meeting", 08/12/2023, 08/12/2023, 65, 37.7749, -122.4194,2023
+77,77,Python Scripting for Experimental Chemists,Workshop,"Durham, NC", Southeastern American Chemical Society Meeting, 10/25/2023, 10/25/2023, 23, 35.9940, -78.8986,2023
+78,78,Python Data and Scripting Workshop, Workshop,"Santa Maria, CA", "Allan Hancock College", 10/06/2023, 10/06/2023, 41, 34.9530, -120.4357,2023
+79,79,Basics of Accerlerated Computing with Intel OpenMP GPU Offload, Webinar, Online, Intel, 11/09/2023, 11/09/2023, 20, , ,2023
+80,80,Cal State LA Python Workshop,Workshop,"Los Angeles, CA","California State University, Los Angeles",01/08/2024,01/09/2024,30,34.0522,-118.2437,2024
+81,81,PHYMOL Training School 1,Workshop,"Torun, Poland",PHYMOL,02/05/2024,02/09/2024,10,53.0138,18.5984,2024
+82,82,Python Scripting Webinar for MNT-CURN,Webinar,Online,nanoHUB,04/06/2024,04/06/2024,22,,,2024
+83,83,Python Package Development - Best Practices Workshop Series, Workshop Series, Online, MolSSI, 05/01/2024, 05/22/2024, 50, , ,2024
+84,84,MolSSI Driver Interface Workshop,Workshop,"Blacksburg, VA",MolSSI,05/16/2024,05/16/2024,33,37.2295733,-80.4139393,2024
+85,85,Computational Chemistry Undergraduate Program,Workshop,"Charlotte,NC","University of North Carolina at Charlotte",06/03/2024,06/07/2024,20,35.2271,-80.8431,2024
+86,86,ACT-CMS Faculty Fellows Workshop,Workshop,"Blacksburg, VA",MolSSI,06/17/2024,06/21/2024,10,37.2295733,-80.4139393,2024
+87,87,Python for Cheminformatics,Workshop,"Merced, CA","University of California, Merced",07/15/2024,07/16/2024,20,37.3022,-120.4820,2024
+88,88,Python Scripting for Molecular Docking,Webinar,Online,Institute for Quantitative Biomedicne,07/18/2024,07/18/2024,650,,,2024
