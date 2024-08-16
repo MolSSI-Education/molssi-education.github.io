@@ -27,12 +27,19 @@
   {%- endif -%}
 
   {%- if resource.full_link -%}
-  <span>{% octicon book %}</span> <a target="_blank" href="{{ resource.full_link }}">View Workshop Materials</a>
+  <span>{% octicon book %}</span> <a target="_blank" href="{{ resource.full_link }}">View Workshop Materials</a> |
   {%- endif -%}
 
+  {%- if resource.full_link_github -%}
+  <span>{% octicon mark-github %}</span> <a target="_blank" href="{{ resource.full_link_github }}">View GitHub Repository</a> 
+  {%- endif -%}
+
+  {% comment %}
+  Comment out youtube - no more youtube channel
   {%- if resource.youtube -%}
   <span>| {% octicon device-camera-video %}</span> <a target="_blank" href={{ resource.youtube }}> View Workshop
     Recording</a>
   {%- endif -%}
+  {% endcomment %}
 
 </div>

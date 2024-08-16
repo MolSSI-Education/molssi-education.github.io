@@ -1,3 +1,12 @@
 #- title: Getting Started in Machine Learning
 #  full_link: http://education.molssi.org/getting-started-machine-learning
 #  description: A list of resources to get started with machine learning
+
+- title: Introduction to Machine Learning Workshop
+  full_link: https://github.com/MolSSI-Education/bcce-2024
+  description: This workshop, first presented at the 2024 BCCE, provides an introduction to machine learning for chemistry educators. The workshop covers the basics of machine learning, including supervised and unsupervised learning, and provides hands-on experience with machine learning tools.
+  topics: <li> Exploratory data analysis (EDA) using Python tools.
+    <li> Training and fitting machine learning models.
+    <li> Evaluating model performance.
+    <li> Types of machine learning models.
+    <li> Feature engineering.

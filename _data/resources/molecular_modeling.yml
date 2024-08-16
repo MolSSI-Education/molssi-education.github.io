@@ -14,3 +14,8 @@
 - title: ab initio MD
   link: ab-initio-md
   description: The ab initio MD workshop provides a hands-on introduction to concepts and techniques in computational molecular science through the development of a simple molecular dynamics program using forces derived from ab initio calculations. Students compute potential energy surfaces for a simple diatomic molecule using the electronic structure package psi4, implement and validate a velocity Verlet algorithm, then simulate and analyze the vibrational motion of their diatomic system for several different levels of theory. The workshop concludes with small group projects and presentations.
+
+- title: Introduction to Cheminformatics using Python
+  full_link: https://nanohub.org/tools/molssicheminfo
+  full_link_github: https://github.com/MolSSI-Education/molssi-cheminformatics
+  description: The Cheminformatics workshop introduces students to the basics of cheminformatics using Python. The workshop covers reading and writing molecular structures, calculating molecular properties, and performing substructure searches. The workshop also includes a brief introduction to machine learning in cheminformatics. This resource is available as a runnable tool on nanoHUB and as notebooks hosted on GitHub.
