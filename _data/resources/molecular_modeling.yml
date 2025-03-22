@@ -19,3 +19,9 @@
   full_link: https://nanohub.org/tools/molssicheminfo
   full_link_github: https://github.com/MolSSI-Education/molssi-cheminformatics
   description: The Cheminformatics workshop introduces students to the basics of cheminformatics using Python. The workshop covers reading and writing molecular structures, calculating molecular properties, and performing substructure searches. The workshop also includes a brief introduction to machine learning in cheminformatics. This resource is available as a runnable tool on nanoHUB and as notebooks hosted on GitHub.
+
+
+- title: Python Scripting for Molecular Docking
+  full_link: https://pdb101.rcsb.org/train/training-events/python3
+  full_link_github: https://github.com/janash/iqb-2024
+  description: The Python Scripting for Molecular Docking workshop was held in collaboration with the Protein Data Bank and introduces students to the basics of molecular docking using Python through the AutoDock Vina API. The workshop covers using the RCSB Search API, reading and writing molecular structures, docking ligands to a protein, and analyzing docking results. 
