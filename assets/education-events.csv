@@ -1,92 +1,103 @@
-,Unnamed: 0,Event Name,Type,"Location (city, state)",Institution/Organization,Start Date,End Date,Number of participants,lat,lon,event year
-0,0,MERCURY Undergraduate Programming Workshop,Workshop,"Greenville, SC",Furman U,07/22/2017,07/23/2017,32,34.85261759999999,-82.3940104,2017
-1,1,2017 Software Summer School,Summer School,"Blacksburg, VA",MolSSI,07/24/2017,08/02/2017,48,37.2295733,-80.4139393,2017
-2,2,2018-1 MSF Bootcamp,MSF Bootcamp,"Blacksburg, VA",MolSSI,01/22/2018,01/26/2018,12,37.2295733,-80.4139393,2018
-3,3,CMS Bootcamp,Workshop,"Durham, NC","NC State, UNC Chapel Hill, Duke University (targeted), Research Triangle Park (location)",07/09/2018,07/10/2018,42,35.9940329,-78.898619,2018
-4,4,FOMMS Best Practices,Workshop,"Delavan, WI",Foundations of Molecular Modeling and Simulation Conference,07/18/2018,07/18/2018,30,42.6330703,-88.6437138,2018
-5,5,MERCURY Undergraduate Programming Workshop,Workshop,"Greenville, SC",Furman U,07/18/2018,07/19/2018,28,34.85261759999999,-82.3940104,2018
-6,6,2018-2 MSF Bootcamp,MSF Bootcamp,"Blacksburg, VA",MolSSI,07/30/2018,08/03/2018,10,37.2295733,-80.4139393,2018
-7,7,Workshop and Summer School Parallel Computing in Molecular Sciences,Workshop + Summer School,"Berkeley, CA","MolSSI, LBNL, IACS, ECP",08/06/2018,08/09/2018,23,37.8715226,-122.273042,2018
-8,8,SERMACS Best Practices Workshop,Workshop,"Augusta, GA",ACS Regional Meeting (Southeatern),10/31/2018,10/31/2018,8,33.4734978,-82.0105148,2018
-9,9,2019-1 MSF Bootcamp,MSF Bootcamp,"Blacksburg, VA",MolSSI,02/11/2019,02/15/2019,8,37.2295733,-80.4139393,2019
-10,10,UF Best Practices Workshop,Workshop,"Gainesville, Fl",University of Florida,04/05/2019,04/05/2019,22,29.6516344,-82.32482619999999,2019
-11,11,Great Lakes Regional Meeting Python Data and Scripting,Workshop,"Lisle, Il",ACS Regional Meeting (Great Lakes),05/03/2019,05/03/2019,15,41.801141,-88.0747875,2019
-12,12,CU Bouder Best Practices Workshop,Workshop,"Boulder, Co",CU Boulder,05/13/2019,05/13/2019,20,40.0149856,-105.2705456,2019
-13,13,Southeastern Theoretical Chemistry Association - Python Workshop,Workshop,"Knoxville, Tn","UT Knoxville, SETCA",05/15/2019,05/16/2019,56,35.9606384,-83.9207392,2019
-14,14,Richard Tapia Center Undergraduate Camp,Summer School,"Houston, TX","Rice University, Richard Tapia Center",06/10/2019,06/14/2019,26,29.7604267,-95.3698028,2019
-15,15,CalPoly Frost - Undergrad Workshop,Workshop,"San Luis Obispo, CA",CaPoly,06/27/2019,06/28/2019,40,35.2827524,-120.6596156,2019
-16,16,Python Data and Scripting - Webinar for summer school students,Workshop,Online,MolSSI,7/10/2019,07/10/2019,38,,,2019
-17,17,MERCURY Undergraduate Programming Workshop,Workshop,"Greenville, SC",Furman U,07/16/2019,07/17/2019,30,34.85261759999999,-82.3940104,2019
-18,18,2019 Software Summer School,Summer School,"Austin, TX","UT Austin, Texas Advanced Computin Center (TACC)",07/22/2019,07/31/2019,51,30.267153,-97.7430608,2019
-19,19,Workshop and Summer School Parallel Computing in Molecular Sciences,Workshop + Summer School,"Stony Brook, NY",Stony Brook U.,08/05/2019,08/08/2019,30,40.9256538,-73.1409429,2019
-20,20,Teach the Teachers,Instructor Training,"Arlington, VA",MolSSI,08/08/2019,08/09/2019,20,38.8799697,-77.1067698,2019
-21,21,2019-2 MSF Bootcamp,MSF Bootcamp,"Blacksburg, VA",MolSSI,08/12/2019,08/16/2019,14,37.2295733,-80.4139393,2019
-22,22,Pfizer Python Data and Scripting,Workshop,"Groton, CT",Pfizer,09/09,09/10/2019,30,41.3497456,-72.0790717,2019
-23,23,Pfizer Python Data and Scripting,Workshop,"Groton, CT",Pfizer,10/21,10/22/2019,30,41.3497456,-72.0790717,2019
-24,24,University of Pittsburgh Best Practices Workshop,Best Practices Workshop,"Pittsburgh, PA",University of Pittsburgh,11/07,11/08/2019,20,40.44062479999999,-79.9958864,2019
-25,25,Pfizer Python Data and Scripting,Workshop,"Sandwich, UK",Pfizer,12/16/2019,12/17/2019,30,51.274017,1.337427,2019
-26,26,Buffalo Best Practices Workshop,Workshop,"Buffalo, NY",University at Buffalo,01/25/2020,01/26/2020,22,42.88644679999999,-78.8783689,2020
-27,27,2020-1 MSF Bootcamp,MSF Bootcamp,"Blacksburg, VA",MolSSI,02/03/2020,02/07/2020,10,37.2295733,-80.4139393,2020
-28,28,Python Data and Scripting April 2020 Webinar,Webinar,Online,MolSSI,04/03/2020,04/24/2020,55,,,2020
-29,29,Python Package Development Best Practices May 2020 Webinar,Webinar,Online,MolSSI,05/08/20,05/29/20,66,,,2020
-30,30,Python Data and Scripting June 2020 Webinar,Webinar,Online,MolSSI,06/02/2020,06/12/2020,106,,,2020
-31,31,Richard Tapia Center Undergraduate Camp - 2020,Webinar,Online,"Rice University, Richard Tapia Center",07/20/2020,07/24/2020,26,,,2020
-32,32,MSF Bootcamp,MSF Bootcamp,Online,MolSSI,08/03/2020,08/07/2020,15,,,2020
-33,33,Berkeley MSSE Bootcamp,Graded Course,Online,UC Berkeley Chemistry,08/10/2020,08/21/2020,7,,,2020
-34,34,Pfizer Python Data and Scripting,Webinar,Online,MolSSI/Pfizer,11/05/2020,11/06/2020,40,,,2020
-35,35,Pfizer Python Data and Scripting,Webinar,Online,MolSSI/Pfizer,11/11/2020,11/18/2020,40,,,2020
-36,36,"Best Practices Workshop, University of Notre Dame",Webinar,Online,ND University,12/15/2020,12/17/2020,49,,,2020
-37,37,"Best Practices Workshop, Massachusetts Institute of Technology",Webinar,Online,MIT,01/12/2021,01/14/2021,29,,,2021
-38,38,MSF Bootcamp,Webinar,Online,MolSSI,02/01/2021,02/05/2021,10,,,2021
-39,39,Python Visualization Workshop (ACS COMP undergrads),Webinar,Online,ACS COMP,02/20/2021,02/20/2021,106,,,2021
-40,40,"Intermediate Python Data and Scripting (Pfizer)",Webinar,Online,Pfizer,05/03/2021,05/13/2021,30,,,2021
-41,41,"Python Package Development Best Practices Webinar, William Paterson University",Webinar,Online,William Paterson University,05/26/2021,05/28/2021,50,,,2021
-42,42,"2021 MERCURY Workshops - Python Data and Scripting and MM Tools",Webinar,Online,MERCURY Consortium,06/01/2021,06/24/2021,70,,,2021
-43,43,"Python Data and Scripting for Biochemists and Molecular Biologists",Webinar,Online,MolSSI,07/07/2021,07/14/2021,36,,,2021
-44,44,Tapia Center for Equity and Excellence - Computational Chemistry Program for Undergraduates,Summer School,"Houston, TX","Rice University, Richard Tapia Center",07/19/2021,07/23/2021,21,29.7604267,-95.3698028,2021
-45,45,UC Berkeley MSSE Bootcamp, Webinar, Online, UC Berkeley MSSE, 08/09/2021, 08/20/2021,6,,,2021
-46,46,SERMACS Python Visualization Workshop, Workshop,"Birmingham, Al", Southeastern Regional Meeting of the American Chemical Society,11/10/2021,11/10/2021, 19, 33.5186, -86.8104,2021
-47,47,NVIDIA DLI Fundamentals of Deep Learning, Webinar, Online, NVIDIA,,,15,,,2021
-48,48,NVIDIA DLI Fundamentals of Accelerated Computing with CUDA C/C++, Webinar, Online, NVIDIA,,,11,,,2021
-49,49,NVIDIA DLI Fundamentals of Deep Learning, Webinar, Online, NVIDIA,,,37,,,2022
-50,50,NVIDIA DLI Fundamentals of Accelerated Computing with CUDA C/C++, Webinar, Online, NVIDIA,,,37,,,2022
-51,51,Python for Biochemists (hosted with the Institute for Quantitative Biomedicine), Webinar, Online, Institute for Quantitative Biomedicine,,,125,,,2022
-52,52,Python Data and Scripting (hosted with nanoHUB for Dillard University), Webinar Series, Online, nanoHUB,,,40,,,2022
-53,53,Python Visualization, Webinar, Online, ACS COMP,,,17,,,2022
-53,53,NVIDIA DLI Scaling CUDA Applications to Multiple Nodes, Webinar, Online, NVIDIA,,,27,,,2022
-54,54,Best Practices Workshop,Webinar Series, Online,TheoChem Group,,,20,,,2022
-55,55,NVIDIA DLI Fundamentals of Deep Learning, Webinar, Online, NVIDIA DLI,,,25,,,2022
-56,56,Tapia Center for Equity and Excellence - Computational Chemistry Program for Undergraduates,Summer School,"Houston, TX","Rice University, Richard Tapia Center",06/13/2022,06/17/2022,23,29.7604267,-95.3698028,2022
-57,57,MSF Bootcamp,MSF Bootcamp,"Blacksburg, VA",MolSSI,07/25/2022,07/29/2022,10,37.2295733,-80.4139393,2022
-58,58,Python Workshop for Chemical Educators,Workshop,"West Lafayette, In","Purdue University, Biennial Conference on Chemical Education",08/01/2022,08/01/2022,13,40.4259,-86.9081,2022
-59,59,NVIDIA Fundamentals of Deep Learning,Workshop,"Chicago, Il","American Chemical Society Fall 2022 Meeting",08/20/2022,08/20/2022,18,41.8781,-87.6298,2022
-60,60,Introduction to Python for Data Science in Chemistry,Workshop,"Chicago, Il","American Chemical Society Fall 2022 Meeting",08/20/2022,08/20/2022,13,41.8781,-87.6298,2022
-61,61,Best Practices workshop, Webinar, Online, Stanford University,,,17,,,2022
-62,62,Fundamentals of Data-Parallel C++, Webinar, Online, Intel,,,10,,,2022
-63,63,Python in Chemistry - Seminar and Workshop,Workshop,"Emory, Va","Emory and Henry College",10/21/2022,10/21/2022,15,36.7738,-81.8349,2022
-64,64,Cal State LA - Partnerships for Research and Education in Chemistry Workshop,Workshop,"Los Angeles, CA","California State University, Los Angeles",01/03/2023,01/06/2023,29,34.0522,-118.2437,2023
-65,65,Enhancing Science Courses by Integrating Python (ESCIP) Workshop,Workshop,"Santa Clara, CA", "Santa Clara University",01/20/2023,01/21/2023,36,37.3541,-121.9552,2023
-66,66,NVIDIA Fundamentals of Deep Learning,Workshop,"Indianapolis, In","American Chemical Society Meeting",03/25/2023,03/25/2023,14,39.7684,-86.1581,2023
-67,67,Python for Data Science in Chemistry,Workshop,"Indianapolis, In","American Chemical Society Meeting",03/25/2023,03/25/2023,30,39.7684,-86.1581,2023
-68,68,Python Scripting Crash Course with the Institute of Quantitative Biomedicine,Workshop,Online,"Institute for Quantitative Biomedicine",04/20/2023,04/20/2023,120,,,2023
-69,69,Enhancing Science Courses by Integrating Python  - Python Data and Scripting Workshop,Workshop,"New York, NY","Enhancing Science Courses by Integrating Python", 04/28/2023,04/28/2023,20,40.7128,-74.0060,2023
-70,70,Python Data and Scripting Workshop,Workshop,"Columbia, SC","Southeastern Theoretical Chemistry Association Conference", 05/11/2023,05/11/2023,20,34.0007,-81.0348,2023
-71,71,Basics of OpenMP GPU Offload,Workshop,Online,"Institute for Quantitative Biomedicine",05/12/2023,05/12/2023,65,,,2023
-72,72,Tapia Center for Equity and Excellence - Computational Chemistry Program for Undergraduates,Summer School,"Houston, TX","Rice University, Richard Tapia Center",06/19/2022,06/23/2022,20,29.7604267,-95.3698028,2023
-73,73,Cal State LA PREC Visit,Workshop,"Blacksburg, VA",MolSSI,07/10/2023,07/10/2023,8,37.2295733,-80.4139393,2023
-74,74,MolSSI Software Fellow Bootcamp,MSF Bootcamp,"Blacksburg, VA",MolSSI,07/17/2023,07/21/2023,10,37.2295733,-80.4139393,2023
-75,75,MSSE Bootcamp,Webinar,"Online",UC Berkeley,07/31/2023,08/11/2023,48,,,2023
-76,76,Python for Data Science in Chemistry,Workshop,"San Francisco, CA", "American Chemical Society Meeting", 08/12/2023, 08/12/2023, 65, 37.7749, -122.4194,2023
-77,77,Python Scripting for Experimental Chemists,Workshop,"Durham, NC", Southeastern American Chemical Society Meeting, 10/25/2023, 10/25/2023, 23, 35.9940, -78.8986,2023
-78,78,Python Data and Scripting Workshop, Workshop,"Santa Maria, CA", "Allan Hancock College", 10/06/2023, 10/06/2023, 41, 34.9530, -120.4357,2023
-79,79,Basics of Accerlerated Computing with Intel OpenMP GPU Offload, Webinar, Online, Intel, 11/09/2023, 11/09/2023, 20, , ,2023
-80,80,Cal State LA Python Workshop,Workshop,"Los Angeles, CA","California State University, Los Angeles",01/08/2024,01/09/2024,30,34.0522,-118.2437,2024
-81,81,PHYMOL Training School 1,Workshop,"Torun, Poland",PHYMOL,02/05/2024,02/09/2024,10,53.0138,18.5984,2024
-82,82,Python Scripting Webinar for MNT-CURN,Webinar,Online,nanoHUB,04/06/2024,04/06/2024,22,,,2024
-83,83,Python Package Development - Best Practices Workshop Series, Workshop Series, Online, MolSSI, 05/01/2024, 05/22/2024, 50, , ,2024
-84,84,MolSSI Driver Interface Workshop,Workshop,"Blacksburg, VA",MolSSI,05/16/2024,05/16/2024,33,37.2295733,-80.4139393,2024
-85,85,Computational Chemistry Undergraduate Program,Workshop,"Charlotte,NC","University of North Carolina at Charlotte",06/03/2024,06/07/2024,20,35.2271,-80.8431,2024
-86,86,ACT-CMS Faculty Fellows Workshop,Workshop,"Blacksburg, VA",MolSSI,06/17/2024,06/21/2024,10,37.2295733,-80.4139393,2024
-87,87,MolSSI/MDAnalysis Best Practices Workshop,Workshop,"Tempe, AZ","MDAnalysis",06/24/2024,06/25/2024,80,33.4255,-111.9400,2024
-88,88,Python for Cheminformatics,Workshop,"Merced, CA","University of California, Merced",07/15/2024,07/16/2024,58,37.3022,-120.4820,2024
-89,89,Python Scripting for Molecular Docking,Webinar,Online,Institute for Quantitative Biomedicne,07/18/2024,07/18/2024,650,,,2024
+Event Name,Type,"Location (city, state)",Institution/Organization,Start Date,End Date,Number of participants,lat,lon,event year
+MERCURY Undergraduate Programming Workshop,Workshop,"Greenville, SC",Furman U,07/22/2017,07/23/2017,32,34.85261759999999,-82.3940104,2017
+2017 Software Summer School,Summer School,"Blacksburg, VA",MolSSI,07/24/2017,08/02/2017,48,37.2295733,-80.4139393,2017
+2018-1 MSF Bootcamp,MSF Bootcamp,"Blacksburg, VA",MolSSI,01/22/2018,01/26/2018,12,37.2295733,-80.4139393,2018
+CMS Bootcamp,Workshop,"Durham, NC","NC State, UNC Chapel Hill, Duke University (targeted), Research Triangle Park (location)",07/09/2018,07/10/2018,42,35.9940329,-78.898619,2018
+FOMMS Best Practices,Workshop,"Delavan, WI",Foundations of Molecular Modeling and Simulation Conference,07/18/2018,07/18/2018,30,42.6330703,-88.6437138,2018
+MERCURY Undergraduate Programming Workshop,Workshop,"Greenville, SC",Furman U,07/18/2018,07/19/2018,28,34.85261759999999,-82.3940104,2018
+2018-2 MSF Bootcamp,MSF Bootcamp,"Blacksburg, VA",MolSSI,07/30/2018,08/03/2018,10,37.2295733,-80.4139393,2018
+Workshop and Summer School Parallel Computing in Molecular Sciences,Workshop + Summer School,"Berkeley, CA","MolSSI, LBNL, IACS, ECP",08/06/2018,08/09/2018,23,37.8715226,-122.273042,2018
+SERMACS Best Practices Workshop,Workshop,"Augusta, GA",ACS Regional Meeting (Southeatern),10/31/2018,10/31/2018,8,33.4734978,-82.0105148,2018
+2019-1 MSF Bootcamp,MSF Bootcamp,"Blacksburg, VA",MolSSI,02/11/2019,02/15/2019,8,37.2295733,-80.4139393,2019
+UF Best Practices Workshop,Workshop,"Gainesville, Fl",University of Florida,04/05/2019,04/05/2019,22,29.6516344,-82.32482619999999,2019
+Great Lakes Regional Meeting Python Data and Scripting,Workshop,"Lisle, Il",ACS Regional Meeting (Great Lakes),05/03/2019,05/03/2019,15,41.801141,-88.0747875,2019
+CU Bouder Best Practices Workshop,Workshop,"Boulder, Co",CU Boulder,05/13/2019,05/13/2019,20,40.0149856,-105.2705456,2019
+Southeastern Theoretical Chemistry Association - Python Workshop,Workshop,"Knoxville, Tn","UT Knoxville, SETCA",05/15/2019,05/16/2019,56,35.9606384,-83.9207392,2019
+Richard Tapia Center Undergraduate Camp,Summer School,"Houston, TX","Rice University, Richard Tapia Center",06/10/2019,06/14/2019,26,29.7604267,-95.3698028,2019
+CalPoly Frost - Undergrad Workshop,Workshop,"San Luis Obispo, CA",CaPoly,06/27/2019,06/28/2019,40,35.2827524,-120.6596156,2019
+Python Data and Scripting - Webinar for summer school students,Workshop,Online,MolSSI,7/10/2019,07/10/2019,38,,,2019
+MERCURY Undergraduate Programming Workshop,Workshop,"Greenville, SC",Furman U,07/16/2019,07/17/2019,30,34.85261759999999,-82.3940104,2019
+2019 Software Summer School,Summer School,"Austin, TX","UT Austin, Texas Advanced Computin Center (TACC)",07/22/2019,07/31/2019,51,30.267153,-97.7430608,2019
+Workshop and Summer School Parallel Computing in Molecular Sciences,Workshop + Summer School,"Stony Brook, NY",Stony Brook U.,08/05/2019,08/08/2019,30,40.9256538,-73.1409429,2019
+Teach the Teachers,Instructor Training,"Arlington, VA",MolSSI,08/08/2019,08/09/2019,20,38.8799697,-77.1067698,2019
+2019-2 MSF Bootcamp,MSF Bootcamp,"Blacksburg, VA",MolSSI,08/12/2019,08/16/2019,14,37.2295733,-80.4139393,2019
+Pfizer Python Data and Scripting,Workshop,"Groton, CT",Pfizer,09/09,09/10/2019,30,41.3497456,-72.0790717,2019
+Pfizer Python Data and Scripting,Workshop,"Groton, CT",Pfizer,10/21,10/22/2019,30,41.3497456,-72.0790717,2019
+University of Pittsburgh Best Practices Workshop,Best Practices Workshop,"Pittsburgh, PA",University of Pittsburgh,11/07,11/08/2019,20,40.44062479999999,-79.9958864,2019
+Pfizer Python Data and Scripting,Workshop,"Sandwich, UK",Pfizer,12/16/2019,12/17/2019,30,51.274017,1.337427,2019
+Buffalo Best Practices Workshop,Workshop,"Buffalo, NY",University at Buffalo,01/25/2020,01/26/2020,22,42.88644679999999,-78.8783689,2020
+2020-1 MSF Bootcamp,MSF Bootcamp,"Blacksburg, VA",MolSSI,02/03/2020,02/07/2020,10,37.2295733,-80.4139393,2020
+Python Data and Scripting April 2020 Webinar,Webinar,Online,MolSSI,04/03/2020,04/24/2020,55,,,2020
+Python Package Development Best Practices May 2020 Webinar,Webinar,Online,MolSSI,05/08/20,05/29/20,66,,,2020
+Python Data and Scripting June 2020 Webinar,Webinar,Online,MolSSI,06/02/2020,06/12/2020,106,,,2020
+Richard Tapia Center Undergraduate Camp - 2020,Webinar,Online,"Rice University, Richard Tapia Center",07/20/2020,07/24/2020,26,,,2020
+MSF Bootcamp,MSF Bootcamp,Online,MolSSI,08/03/2020,08/07/2020,15,,,2020
+Berkeley MSSE Bootcamp,Graded Course,Online,UC Berkeley Chemistry,08/10/2020,08/21/2020,7,,,2020
+Pfizer Python Data and Scripting,Webinar,Online,MolSSI/Pfizer,11/05/2020,11/06/2020,40,,,2020
+Pfizer Python Data and Scripting,Webinar,Online,MolSSI/Pfizer,11/11/2020,11/18/2020,40,,,2020
+"Best Practices Workshop, University of Notre Dame",Webinar,Online,ND University,12/15/2020,12/17/2020,49,,,2020
+"Best Practices Workshop, Massachusetts Institute of Technology",Webinar,Online,MIT,01/12/2021,01/14/2021,29,,,2021
+MSF Bootcamp,Webinar,Online,MolSSI,02/01/2021,02/05/2021,10,,,2021
+Python Visualization Workshop (ACS COMP undergrads),Webinar,Online,ACS COMP,02/20/2021,02/20/2021,106,,,2021
+"Intermediate Python Data and Scripting (Pfizer)",Webinar,Online,Pfizer,05/03/2021,05/13/2021,30,,,2021
+"Python Package Development Best Practices Webinar, William Paterson University",Webinar,Online,William Paterson University,05/26/2021,05/28/2021,50,,,2021
+"2021 MERCURY Workshops - Python Data and Scripting and MM Tools",Webinar,Online,MERCURY Consortium,06/01/2021,06/24/2021,70,,,2021
+"Python Data and Scripting for Biochemists and Molecular Biologists",Webinar,Online,MolSSI,07/07/2021,07/14/2021,36,,,2021
+Tapia Center for Equity and Excellence - Computational Chemistry Program for Undergraduates,Summer School,"Houston, TX","Rice University, Richard Tapia Center",07/19/2021,07/23/2021,21,29.7604267,-95.3698028,2021
+UC Berkeley MSSE Bootcamp, Webinar, Online, UC Berkeley MSSE, 08/09/2021, 08/20/2021,6,,,2021
+SERMACS Python Visualization Workshop, Workshop,"Birmingham, Al", Southeastern Regional Meeting of the American Chemical Society,11/10/2021,11/10/2021, 19, 33.5186, -86.8104,2021
+NVIDIA DLI Fundamentals of Deep Learning, Webinar, Online, NVIDIA,,,15,,,2021
+NVIDIA DLI Fundamentals of Accelerated Computing with CUDA C/C++, Webinar, Online, NVIDIA,,,11,,,2021
+NVIDIA DLI Fundamentals of Deep Learning, Webinar, Online, NVIDIA,,,37,,,2022
+NVIDIA DLI Fundamentals of Accelerated Computing with CUDA C/C++, Webinar, Online, NVIDIA,,,37,,,2022
+Python for Biochemists (hosted with the Institute for Quantitative Biomedicine), Webinar, Online, Institute for Quantitative Biomedicine,,,125,,,2022
+Python Data and Scripting (hosted with nanoHUB for Dillard University), Webinar Series, Online, nanoHUB,,,40,,,2022
+Python Visualization, Webinar, Online, ACS COMP,,,17,,,2022
+NVIDIA DLI Scaling CUDA Applications to Multiple Nodes, Webinar, Online, NVIDIA,,,27,,,2022
+Best Practices Workshop,Webinar Series, Online,TheoChem Group,,,20,,,2022
+NVIDIA DLI Fundamentals of Deep Learning, Webinar, Online, NVIDIA DLI,,,25,,,2022
+Tapia Center for Equity and Excellence - Computational Chemistry Program for Undergraduates,Summer School,"Houston, TX","Rice University, Richard Tapia Center",06/13/2022,06/17/2022,23,29.7604267,-95.3698028,2022
+MSF Bootcamp,MSF Bootcamp,"Blacksburg, VA",MolSSI,07/25/2022,07/29/2022,10,37.2295733,-80.4139393,2022
+Python Workshop for Chemical Educators,Workshop,"West Lafayette, In","Purdue University, Biennial Conference on Chemical Education",08/01/2022,08/01/2022,13,40.4259,-86.9081,2022
+NVIDIA Fundamentals of Deep Learning,Workshop,"Chicago, Il","American Chemical Society Fall 2022 Meeting",08/20/2022,08/20/2022,18,41.8781,-87.6298,2022
+Introduction to Python for Data Science in Chemistry,Workshop,"Chicago, Il","American Chemical Society Fall 2022 Meeting",08/20/2022,08/20/2022,13,41.8781,-87.6298,2022
+Best Practices workshop, Webinar, Online, Stanford University,,,17,,,2022
+Fundamentals of Data-Parallel C++, Webinar, Online, Intel,,,10,,,2022
+Python in Chemistry - Seminar and Workshop,Workshop,"Emory, Va","Emory and Henry College",10/21/2022,10/21/2022,15,36.7738,-81.8349,2022
+Cal State LA - Partnerships for Research and Education in Chemistry Workshop,Workshop,"Los Angeles, CA","California State University, Los Angeles",01/03/2023,01/06/2023,29,34.0522,-118.2437,2023
+Enhancing Science Courses by Integrating Python (ESCIP) Workshop,Workshop,"Santa Clara, CA", "Santa Clara University",01/20/2023,01/21/2023,36,37.3541,-121.9552,2023
+NVIDIA Fundamentals of Deep Learning,Workshop,"Indianapolis, In","American Chemical Society Meeting",03/25/2023,03/25/2023,14,39.7684,-86.1581,2023
+Python for Data Science in Chemistry,Workshop,"Indianapolis, In","American Chemical Society Meeting",03/25/2023,03/25/2023,30,39.7684,-86.1581,2023
+Python Scripting Crash Course with the Institute of Quantitative Biomedicine,Workshop,Online,"Institute for Quantitative Biomedicine",04/20/2023,04/20/2023,120,,,2023
+Enhancing Science Courses by Integrating Python  - Python Data and Scripting Workshop,Workshop,"New York, NY","Enhancing Science Courses by Integrating Python", 04/28/2023,04/28/2023,20,40.7128,-74.0060,2023
+Python Data and Scripting Workshop,Workshop,"Columbia, SC","Southeastern Theoretical Chemistry Association Conference", 05/11/2023,05/11/2023,20,34.0007,-81.0348,2023
+Basics of OpenMP GPU Offload,Workshop,Online,"Institute for Quantitative Biomedicine",05/12/2023,05/12/2023,65,,,2023
+Tapia Center for Equity and Excellence - Computational Chemistry Program for Undergraduates,Summer School,"Houston, TX","Rice University, Richard Tapia Center",06/19/2022,06/23/2022,20,29.7604267,-95.3698028,2023
+Cal State LA PREC Visit,Workshop,"Blacksburg, VA",MolSSI,07/10/2023,07/10/2023,8,37.2295733,-80.4139393,2023
+MolSSI Software Fellow Bootcamp,MSF Bootcamp,"Blacksburg, VA",MolSSI,07/17/2023,07/21/2023,10,37.2295733,-80.4139393,2023
+MSSE Bootcamp,Webinar,"Online",UC Berkeley,07/31/2023,08/11/2023,48,,,2023
+Python for Data Science in Chemistry,Workshop,"San Francisco, CA", "American Chemical Society Meeting", 08/12/2023, 08/12/2023, 65, 37.7749, -122.4194,2023
+Python Scripting for Experimental Chemists,Workshop,"Durham, NC", Southeastern American Chemical Society Meeting, 10/25/2023, 10/25/2023, 23, 35.9940, -78.8986,2023
+Python Data and Scripting Workshop, Workshop,"Santa Maria, CA", "Allan Hancock College", 10/06/2023, 10/06/2023, 41, 34.9530, -120.4357,2023
+Basics of Accerlerated Computing with Intel OpenMP GPU Offload, Webinar, Online, Intel, 11/09/2023, 11/09/2023, 20, , ,2023
+Cal State LA Python Workshop,Workshop,"Los Angeles, CA","California State University, Los Angeles",01/08/2024,01/09/2024,30,34.0522,-118.2437,2024
+PHYMOL Training School 1,Workshop,"Torun, Poland",PHYMOL,02/05/2024,02/09/2024,10,53.0138,18.5984,2024
+Python Scripting Webinar for MNT-CURN,Webinar,Online,nanoHUB,04/06/2024,04/06/2024,22,,,2024
+Python Package Development - Best Practices Workshop Series, Workshop Series, Online, MolSSI, 05/01/2024, 05/22/2024, 50, , ,2024
+MolSSI Driver Interface Workshop,Workshop,"Blacksburg, VA",MolSSI,05/16/2024,05/16/2024,33,37.2295733,-80.4139393,2024
+Computational Chemistry Undergraduate Program,Workshop,"Charlotte,NC","University of North Carolina at Charlotte",06/03/2024,06/07/2024,20,35.2271,-80.8431,2024
+ACT-CMS Faculty Fellows Workshop,Workshop,"Blacksburg, VA",MolSSI,06/17/2024,06/21/2024,10,37.2295733,-80.4139393,2024
+MolSSI/MDAnalysis Best Practices Workshop,Workshop,"Tempe, AZ","MDAnalysis",06/24/2024,06/25/2024,80,33.4255,-111.9400,2024
+Python for Cheminformatics,Workshop,"Merced, CA","University of California, Merced",07/15/2024,07/16/2024,58,37.3022,-120.4820,2024
+Python Scripting for Molecular Docking,Webinar,Online,Institute for Quantitative Biomedicne,07/18/2024,07/18/2024,650,,,2024
+Cal State LA PREC Workshop,In person event,"Los Angeles, CA",Cal State LA,01/06/2025,01/07/2025,25,34.0522,-118.2437,2025
+Python Scripting for Cheminformatics-Driven Molecular Docking,Webinar,Online,"Institute for Quantitative Biomedicine, Protein Data Bank",05/01/2025,05/01/2025,500,,,2025
+Best Practices Workshop,In person event,"Memphis, TN",SETCA,05/08/2025,05/08/2025,8,35.1495,-90.049,2025
+MolSSI/MAPOL Computational Chemistry Workshop,In person event,"Charlotte, NC","UNC Charlotte, MAPOL",07/14/2025,07/18/2025,25,35.2271,-80.8431,2025
+Python Data Analysis of Vibrational Spectroscopy,In person event,"Pittsburgh, PA",MERCURY / University of Pittsburgh,07/21/2025,07/22/2025,61,40.4406,-79.9959,2025
+MolSSI Software Fellow Bootcamp,In person event,"Blacksburg, VA",,07/21/2025,07/25/2025,8,37.2296,-80.4137,2025
+MSSE Bootcamp,Course,Online,UC Berkeley,08/04/2025,08/15/2025,33,,,2025
+Basics of Accelerated Computing with Intel OpenMP GPU Offload,Webinar,Online,"Intel, MolSSI",03/07/2025,03/07/2025,15,,,2025
+Introduction to Intel Tiber AI Cloud and oneAPI,Webinar,Online,"Intel, MolSSI",03/07/2025,03/07/2025,10,,,2025
+MolSSI/NVIDIA Building LLM Applications With Prompt Engineering,Webinar,Online,"NVIDIA, MolSSI",10/24/2025,10/24/2025,20-30,,,2025
+MolSSI/NVIDIA Data Parallelism: How to Train Deep Learning Models on Multiple GPUs,Webinar,Online,"NVIDIA, MolSSI",11/21/2025,11/21/2025,20-30,,,2025
