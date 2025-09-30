@@ -12,6 +12,16 @@
     <li> Version control with git
     <li> Sharing code on GitHub
 
+- title: Introduction to Julia
+  link: julia-introduction
+  description: An interactive tutorial covering the essentials of the Julia language. Participants will learn to write Julia code, work with numerical data, and optimize performance for computational science workflows.  
+  topics: <li> Installation
+    <li> Syntax
+    <li> The REPL
+    <li> Numerical Data
+    <li> Optimizing Code
+    <li> Multi-Threading and GPUs
+
 - title: Python Data and Scripting for Biochemists and Molecular Biologists
   link: python-scripting-biochemistry
   description: The Python Scripting for Biochemistry and Molecular Biology Workshop is designed for students and faculty who are interested in getting started with coding as part of their teaching and research. The workshop provides hands-on python coding experience using examples relevant to biochemists. It includes parsing PDB files, data analysis, linear regression, nonlinear regression, and plotting data. No prior programming experience is necessary.
